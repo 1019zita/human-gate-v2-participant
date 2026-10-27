@@ -17,6 +17,10 @@ h2 { margin-top: 0; }
 .response-row legend { font-weight: 700; }
 .choices { display: flex; flex-wrap: wrap; gap: 18px; }
 label { cursor: pointer; }
+.card > label { display: block; margin: 14px 0; font-weight: 600; }
+.card > label input, .card > label select { display: block; width: 100%; max-width: 420px; margin-top: 5px; padding: 9px 10px; border: 1px solid #98a2b3; border-radius: 7px; background: white; font: inherit; }
+.consent-check { display: flex !important; align-items: flex-start; gap: 8px; font-weight: 400 !important; }
+.consent-check input { width: auto !important; margin-top: 6px !important; }
 button { background: #155eef; color: white; border: 0; border-radius: 8px; padding: 10px 16px; font-weight: 700; cursor: pointer; }
 button:disabled { background: #98a2b3; cursor: not-allowed; }
 .consent, .range { display: block; margin: 18px 0; }
