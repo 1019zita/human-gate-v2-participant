@@ -5,8 +5,12 @@ export const fixtureVignette: Vignette = {
   display_name: "冻结案件 vignette（开发 fixture）",
   facts: "这是 TEST_ONLY 开发 fixture。正式部署必须从版本化 HG2 artifact manifest 加载冻结案件事实。",
   issues: [{ issue_id: "CASE-01-ISS-01", issue_text: "冻结争点：请根据事实与后续材料独立判断该假设。" }],
-  response_options: ["accept", "reject", "undetermined"],
-  hypotheses: [{ hypothesis_id: "CASE-01-H1", text: "示例冻结假设；本页面不提供正确答案。" }],
+  response_options: [
+    { option_id: "A", label: "方案 A", description: "示例解释一。" },
+    { option_id: "B", label: "方案 B", description: "示例解释二。" },
+    { option_id: "C", label: "方案 C", description: "示例解释三。" },
+    { option_id: "U", label: "现有信息不足以判断", description: "当前材料不足以作出选择。" },
+  ],
 };
 
 export const fixtureArtifacts: Record<string, Artifact> = {

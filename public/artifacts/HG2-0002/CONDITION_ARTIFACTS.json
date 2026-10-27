@@ -1,0 +1,2935 @@
+{
+  "artifact_type": "HG2_CONDITION_ARTIFACTS",
+  "artifact_version": "HG2-0002",
+  "conditions": {
+    "HG2-C0_STANDARD_RAG": {
+      "CASE-01": {
+        "answer": "结论：就证据中的高等学校而言，其行使学籍管理、颁发学业证书等职权时，证据支持其作为行政诉讼适格被告；校规须受上位法律、法规、规章约束并可被法院审查；退学处分应遵循正当程序，未送达、未听取申辩可构成程序违法。但“法律、法规授权组织”这一术语，以及“即便无成文法条，正当程序作为行政法一般原则可直接适用”的明确表述，证据不足。\n\n1. **被告资格与受案范围**：高等学校对受教育者有学籍管理、奖励或处分权力，并有代表国家颁发学历证书、学位证书的职责，二者之间属教育行政管理关系；受教育者对涉及基本权利的管理行为不服可提起行政诉讼，高等学校是适格被告[E2][E5]。退学处理决定属于学校行使法律赋予的教育行政管理职权，学生不服提起诉讼属于行政诉讼受案范围[E4]。裁判理由还指出，法律赋予事业单位、社会团体行政管理职权时，可将其列为行政诉讼被告，以解决其与管理相对人之间的行政争议[E3]。因此，就学籍管理、颁发学业证书等职权行为，证据支持高校具备行政诉讼被告资格；但证据未直接使用“法律、法规授权组织”这一术语，若需严格按该术语定性，证据不足，需补充明确规范或裁判表述[E3][E2][E5]。\n\n2. **校规合法性审查**：高校依法有教育自主权，可制定校纪校规并进行教学管理和违纪处分，但校规必须符合法律、法规和规章，不得抵触上位规定[E2]。高校依据违背国家法律、行政法规或规章的校规校纪作出退学处理等决定，人民法院不予支持[E5]。法院在案件中审查了第068号通知与《普通高等学校学生管理规定》第二十九条的退学条件是否抵触，并因抵触认定退学处理违法[E2]。\n\n3. **退学处分的正当程序**：高校对因违反校规校纪的受教育者作出影响其基本权利的决定时，应允许其申辩并在决定作出后及时送达，否则视为违反法定程序[E5]。学校作出退学处理应遵循程序规定，未告知陈述申辩、未充分听取意见，违反最低限度程序要求；未提交校长会议研究、送达时未告知申诉权，亦属程序违法[E4]。田永案中，学校未直接向田永宣布处分决定和送达变更学籍通知[E1]，结合上述程序要求，可支持未送达、未听取申辩构成程序违法[E5][E4][E1]。但“即便无成文法条，正当程序作为行政法一般原则可直接适用”这一明确命题，证据不足：E4仅表述为应遵循最低限度程序要求，E5虽以正当程序为关键词并载明申辩、送达要求，但未直接说明在无成文法条时一般原则可直接适用；需补充明确裁判说理或规范依据[E4][E5]。\n\n以上为研究辅助分析，不是法律意见。",
+        "condition": "HG2-C0_STANDARD_RAG",
+        "presentation_note": "标准 AI 辅助材料；不包含结构化审计标签。"
+      },
+      "CASE-02": {
+        "answer": "结论：根据现有证据，彩礼缔结婚姻、组建家庭的核心目的不能仅因办理结婚登记即认定实现，而应看是否形成长期、稳定的共同生活；在“无实质共同生活、无共同合理支出、无证据所示酌减因素”时，证据支持100%全额返还，但不支持将90%~100%作为一般区间[E1][E2][E4][E5][E6]。具体而言：①未办理结婚登记且未共同生活的，E5中张某给付7万元彩礼后双方未登记、未共同生活，法院判令全额返还7万元[E5]；但E6第六条规定未登记但已共同生活的应综合确定是否返还及比例[E6]，E3中未登记但共同生活4年并育有子女的，法院驳回返还请求，故①必须严格限定为“未共同生活”[E3]。②已登记但婚姻存续极短、女方无正当理由拒绝共同生活的，E1/E2中郑某与吴某登记后仅相处十天，吴某离开后拒绝返回共同生活，法院认定未形成稳定共同生活、未建立夫妻感情，结合彩礼未实际使用、未置办嫁妆、未共同孕育孩子，判令全额返还20万元[E1][E2]；但E6第五条规定已登记且共同生活的一般不支持返还，短且彩礼过高时也只是“确定是否返还以及返还的具体比例”[E6]，E7/E8案例三中已登记不到三个月、有短暂同居和共同消费的，法院扣除共同消费后按106万元返还80万元（按证据数字约75.5%），E8案例一中18.8万元彩礼返还56400元（按证据数字约30%），说明存在共同合理支出或孕育等酌减因素时不能主张90%~100%[E7][E8]。③借婚姻索取财物或骗婚情形，E6第二条明确以彩礼为名借婚姻索取财物的，另一方要求返还的应予支持[E6]；E1典型意义认为郑某案存在借婚姻索取财物可能性并判令返还全部彩礼[E1][E2]；E4中女方将索取财物作为办理结婚登记的条件、仅同居一晚，法院判令全额返还彩礼及大额赠与[E4]；E1中卢某骗婚案构成诈骗罪，判刑并退赔被害人损失[E1]。关于90%~99%的返还区间，证据不足：现有证据只显示特定情形下100%全额返还，以及存在共同消费、孕育等情形时低于90%的部分返还，没有90%~99%的裁量标准；若要主张该区间，需补充相应裁判规则或案例。以上为研究辅助，不是法律意见。",
+        "condition": "HG2-C0_STANDARD_RAG",
+        "presentation_note": "标准 AI 辅助材料；不包含结构化审计标签。"
+      },
+      "CASE-03": {
+        "answer": "结论：根据现有证据，于海明抢到砍刀后追砍时，刘某的不法侵害仍处于“正在进行”状态，追砍行为具备防卫适时性；在刘某行为属于“行凶”的前提下，于海明致其死亡依法不属于防卫过当；判断应立足防卫人当时情境，按社会公众一般认知，不能苛求防卫人精准判断。具体分析如下：\n\n1. **不法侵害尚未结束，追砍具有适时性。** 判断侵害是否结束，应看不法侵害人是否已实质性脱离现场，以及是否还有继续攻击或再次发动攻击的可能。[E1] 于海明抢到砍刀后，刘某立刻上前争夺，侵害行为没有停止；刘某受伤后又跑向之前藏匿砍刀的汽车，于海明此时不间断追击符合防卫需要；追砍两刀均未砍中，刘某从汽车旁边跑开后，于海明也未再追击。[E1] 因此，刘某既未放弃攻击行为，也未实质性脱离现场，不能认为侵害已经停止，于海明追砍行为具有防卫适时性。[E1] 另案裁判规则亦表明，不法侵害虽被暂时制止，但立足防卫人当时情境，以社会公众一般认知认为侵害人仍有继续实施侵害现实可能性的，应认定不法侵害仍在进行；不能苛求防卫人在紧张、紧迫情境下精准判断侵害能力和意图。[E3]\n\n2. **在“行凶”特殊防卫前提下，致死亡不属于防卫过当。** 刘某持砍刀连续击打于海明，行为性质已升级为严重危及人身安全的暴力犯罪，所持凶器可轻易致人死伤，于海明人身安全处于现实、急迫和严重危险之下；刘某具体是杀人故意还是伤害故意不确定，不构成认定“行凶”的障碍。[E2] 对正在进行行凶等严重危及人身安全的暴力犯罪采取防卫行为，造成不法侵害人伤亡的，不属于防卫过当，不负刑事责任；不法侵害既包括实害行为也包括危险行为，不能以于海明本人伤情较轻与刘某死亡后果对比不相适应为由认定过当，于海明是否受伤或伤情轻重对正当防卫认定没有影响。[E1] 行凶已造成严重危及人身安全的紧迫危险，即使没有发生严重实害后果，也不影响正当防卫成立。[E2] 证据支持于海明采取防卫行为致刘某死亡依法不属于防卫过当。[E1]\n\n3. **判断标准应情境化、常人化。** 判断不法侵害是否结束，不能苛求防卫人在紧张、紧迫情境下精准判断，而应立足防卫人防卫时所处具体情境，按照社会公众一般认知，综合考量侵害急缓程度、侵害工具危险性、侵害人是否仍有继续实施侵害的现实可能性等因素，作出合乎情理的判断。[E3] 该规则支持对于海明追砍适时性及防卫必要性的情境化判断。[E3]\n\n4. **证据不足之处。** 证据中没有出现“社会伦理许可的必需说”与“行为结果二元论”的明确表述或论证，故不能以该特定学说标签作为本案结论的直接依据；证据仅能支持“危险行为可防卫”“特殊防卫致伤亡不属于过当”“不能以伤情对比认定过当”等命题。[E1][E2] 关于“死亡结果是不法侵害本身风险所致”的归责表述，证据仅载明刘某死亡原因及特殊防卫不过当的结论，缺少对于海明案死亡结果归责于不法侵害风险的直接论证，故该具体表述证据不足。[E1][E2]\n\n以上为基于所给证据的研究辅助分析，不是法律意见。",
+        "condition": "HG2-C0_STANDARD_RAG",
+        "presentation_note": "标准 AI 辅助材料；不包含结构化审计标签。"
+      }
+    },
+    "HG2-C1_COMPETITIVE": {
+      "CASE-01": {
+        "answer": "综合三路证据，当前观点的三项要点基本成立：第一，公立高校在行使学籍管理、颁发学业证书、学位证书等法律授予的教育行政管理职权时，属于法律、法规授权的组织，具备行政诉讼被告资格，学生不服退学处理决定提起诉讼属于行政诉讼受案范围；第二，高校有权制定校规校纪并进行学籍管理和违纪处分，但校规及据此作出的处分不得抵触上位法律、法规、规章，与上位规章冲突的校规不能作为处分依据，法院可审查其合法性；第三，高校作出影响受教育者基本权利的退学处理决定时，应遵循正当程序或最低程序要求，未依法送达、未听取陈述申辩、未告知申诉权等可构成程序违法。反向/边界材料主要提示被告资格来源于法律授予的特定行政管理职权，并非高校所有管理行为当然可诉，但不足以推翻本案结论。因缺少完整法条文本及田永案是否听取申辩的直接证据，结论仍需人工复核。",
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "法院生效裁判认为：根据我国法律、法规规定，高等学校对受教育者有进行学籍管理、奖励或处分的权力，有代表国家对受教育者颁发学历证书、学位证书的职责。",
+                "quote_id": "E2-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校与受教育者之间属于教育行政管理关系，受教育者对高等学校涉及受教育者基本权利的管理行为不服的，有权提起行政诉讼，高等学校是行政诉讼的适格被告。",
+                "quote_id": "E2-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "教育法第二十八条规定的学校及其他教育机构行使的权利中，第（四）项明文规定：“对受教育者进行学籍管理，实施奖励或者处分”。",
+                "quote_id": "E3-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "由此可见学籍管理也是学校依法对受教育者实施的一项特殊的行政管理。",
+                "quote_id": "E3-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "谭帆诉西南大学不服退学处理决定案参考性案例2号 　　关键词　　行政 退学处理 程序违法　　裁判要点　　1、高等学校作出的退学处理决定属于学校行使法律赋予的教育行政管理职权，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围；　　2、学校作出退学处理决定，应当遵循《普通高等学校学生管理规定》的程序要求，否则应当认定为违法。",
+                "quote_id": "E4-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C1",
+            "claim_text": "公立高校在行使学籍管理、颁发学业证书、学位证书等法律授予的教育行政管理职权时，属于法律、法规授权的组织，具备行政诉讼被告资格。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "谭帆诉西南大学不服退学处理决定案参考性案例2号 　　关键词　　行政 退学处理 程序违法　　裁判要点　　1、高等学校作出的退学处理决定属于学校行使法律赋予的教育行政管理职权，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围；　　2、学校作出退学处理决定，应当遵循《普通高等学校学生管理规定》的程序要求，否则应当认定为违法。",
+                "quote_id": "E4-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "依据《最高人民法院关于执行<中华人民共和国行政诉讼法>若干问题的解释》第一条之规定，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围。",
+                "quote_id": "E4-S22",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校与受教育者之间属于教育行政管理关系，受教育者对高等学校涉及受教育者基本权利的管理行为不服的，有权提起行政诉讼，高等学校是行政诉讼的适格被告。",
+                "quote_id": "E2-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C2",
+            "claim_text": "学生不服高校作出的退学处理决定提起诉讼，属于行政诉讼受案范围。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校依法具有相应的教育自主权，有权制定校纪、校规，并有权对在校学生进行教学管理和违纪处分，但是其制定的校纪、校规和据此进行的教学管理和违纪处分，必须符合法律、法规和规章的规定，必须尊重和保护当事人的合法权益。",
+                "quote_id": "E2-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "2.高等学校依据违背国家法律、行政法规或规章的校规、校纪，对受教育者作出退学处理等决定的，人民法院不予支持。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C3",
+            "claim_text": "高校有权制定校纪校规并进行学籍管理和违纪处分，但其校规及据此作出的处分必须符合法律、法规、规章的规定。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "本案原告在补考中随身携带纸条的行为属于违反考场纪律的行为，被告可以按照有关法律、法规、规章及学校的有关规定处理，但其对原告作出退学处理决定所依据的该校制定的第068号通知，与《普通高等学校学生管理规定》第二十九条规定的法定退学条件相抵触，故被告所作退学处理决定违法。",
+                "quote_id": "E2-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "2.高等学校依据违背国家法律、行政法规或规章的校规、校纪，对受教育者作出退学处理等决定的，人民法院不予支持。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C4",
+            "claim_text": "高校依据与上位规章相抵触的校规作出的退学处理决定违法，该抵触上位规定的校规不能作为处分依据。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "3.高等学校对因违反校规、校纪的受教育者作出影响其基本权利的决定时，应当允许其申辩并在决定作出后及时送达，否则视为违反法定程序。",
+                "quote_id": "E5-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "教育部颁布《普通高等学校学生管理规定》，规定对学生作退学处理应当提交校长会议研究决定，且在送达处理决定时应当告知其有申诉的权利。",
+                "quote_id": "E4-S25",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "学校在作出行政决定时，应当遵循回避和听取对方意见的最低程序性规定。",
+                "quote_id": "E4-S26",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "西南大学做出退学处理决定前，没有告知谭帆进行陈述和申辩，未充分听取谭帆的意见，违反了最低限度的程序要求。",
+                "quote_id": "E4-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "在对谭帆作出退学处理决定之前没有提交校长会议研究决定，作出退学处理决定时也未告知原告谭帆享有书面申诉的权利，属程序违法。",
+                "quote_id": "E4-S28",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C5",
+            "claim_text": "高校作出影响受教育者基本权利的退学处理决定时，应遵循正当程序或最低程序要求，包括听取陈述申辩、依法提交校长会议研究、及时送达并告知申诉权等。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "但是，北京科技大学没有直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续。",
+                "quote_id": "E1-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "同年4月10日，被告填发了学籍变动通知，但退学处理决定和变更学籍的通知未直接向田永宣布、送达，也未给田永办理退学手续，田永继续以该校大学生的身份参加正常学习及学校组织的活动。",
+                "quote_id": "E5-S21",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C6",
+            "claim_text": "田永案中，学校未直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续，田永继续以在校大学生身份参加正常学习及学校组织的活动。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "2010年9月28日，西南大学作出《关于给予谭帆同学退学处理的决定》（此前未告知谭帆进行陈述和申辩，亦未经校长会议研究），内容为：“音乐学院音乐学专业（师范）2009级本科学生谭帆（学号222009311011036），该生长期无故旷课已超过60学时，且目前不合格科目达10门。",
+                "quote_id": "E4-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "西南大学做出退学处理决定前，没有告知谭帆进行陈述和申辩，未充分听取谭帆的意见，违反了最低限度的程序要求。",
+                "quote_id": "E4-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "在对谭帆作出退学处理决定之前没有提交校长会议研究决定，作出退学处理决定时也未告知原告谭帆享有书面申诉的权利，属程序违法。",
+                "quote_id": "E4-S28",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "故西南大学做出的退学处理决定依法应予撤销；对谭帆起诉要求撤销退学处理决定的请求予以支持。",
+                "quote_id": "E4-S29",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C7",
+            "claim_text": "谭帆案中，学校作出退学处理前未告知谭帆进行陈述和申辩、未提交校长会议研究，送达决定时未告知书面申诉权，被法院认定程序违法并撤销退学处理决定。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "在我国目前情况下，某些事业单位、社会团体，虽然不具有行政机关的资格，但是法律赋予它行使一定的行政管理职权。",
+                "quote_id": "E3-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "他们之间因管理行为而发生的争议，不是民事诉讼，而是行政诉讼。",
+                "quote_id": "E3-S3",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C8",
+            "claim_text": "反向/边界材料表明，高校行政诉讼被告资格来源于法律授予的特定行政管理职权，并非高校所有管理行为当然可诉；应结合是否涉及受教育者基本权利或是否属于代表国家颁证等公权力行使情形判断。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "这些单位、团体与管理相对人之间不存在平等的民事关系，而是特殊的行政管理关系。",
+                "quote_id": "E3-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C9",
+            "claim_text": "田永诉请颁发毕业证、学位证，属于高校代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可适用行政诉讼法解决。",
+            "claim_type": "distinguishable",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "1996年2月29日，田永在参加电磁学课程补考过程中，随身携带写有电磁学公式的纸条，中途去厕所时，纸条掉出，被监考教师发现。",
+                "quote_id": "E1-S24",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "北京科技大学于同年3月5日按照“068号通知”第三条第五项关于“夹带者，包括写在手上等作弊行为者”的规定，认定田永的行为是考试作弊，根据第一条“凡考试作弊者，一律按退学处理”的规定，决定对田永按退学处理，4月10日填发了学籍变动通知。",
+                "quote_id": "E1-S26",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "但是，北京科技大学没有直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续。",
+                "quote_id": "E1-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "田永继续在该校以在校大学生的身份参加正常学习及学校组织的活动。",
+                "quote_id": "E1-S28",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "田永因在补考中随身携带写有电磁学公式的纸条被认定考试作弊并按退学处理，但学校未直接宣布处分决定和送达变更学籍通知，田永继续以在校大学生身份参加正常学习及学校组织的活动。",
+            "claim_type": "neutral_background",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "被告辩称：原告田永违反本校《关于严格考试管理的紧急通知》（以下简称068号通知）中的规定，在补考过程中夹带写有电磁学公式的纸条被监考教师发现，本校决定对田永按退学处理，通知校内有关部门给田永办理退学手续。",
+                "quote_id": "E1-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "给田永本人的通知，也已经通过校内信箱送达到田永所在的学院。",
+                "quote_id": "E1-S16",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "由于田永不配合办理有关手续，校内的一些部门工作不到位，再加上部分教职工不了解情况等原因，造成田永在退学后仍能继续留在学校学习的事实。",
+                "quote_id": "E1-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "被告北京科技大学辩称，对田永按退学处理，并称给田永本人的通知已通过校内信箱送达到田永所在学院，田永不配合办理手续。",
+            "claim_type": "neutral_background",
+            "support_status": "supported"
+          }
+        ],
+        "condition": "HG2-C1_COMPETITIVE",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C6",
+              "C11"
+            ],
+            "conflict_id": "CF1",
+            "description": "被告主张已通过校内信箱送达通知，而法院查明学校未直接向田永宣布处分决定和送达变更学籍通知；二者在送达事实层面存在表述差异。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+            "resolution_status": "resolved"
+          },
+          {
+            "between_claim_ids": [
+              "C3",
+              "C4"
+            ],
+            "conflict_id": "CF2",
+            "description": "高校校规自主权与上位法优先要求之间存在张力；生效裁判明确校规及据此处分必须符合上位法律、法规、规章，与上位规章抵触的校规不能作为处分依据。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "未提供本案所涉高校第068号通知及《普通高等学校学生管理规定》相关条文的完整文本，无法逐条比对退学条件与上位规章的具体冲突。",
+            "gap_id": "G1",
+            "missing_aspect": "完整规范文本与逐条比对",
+            "route": "neutral_governing"
+          },
+          {
+            "description": "支持路线未直接证明田永案作出退学处理决定前是否听取陈述申辩、是否告知申诉权；相关程序违法论证更多来自谭帆案及指导案例规则。",
+            "gap_id": "G2",
+            "missing_aspect": "田永案听取申辩与告知申诉权的直接事实",
+            "route": "support"
+          },
+          {
+            "description": "反向路线未提供否定高校被告资格或否定正当程序适用的权威材料，现有材料主要是对被告资格来源和适用范围的边界性说明。",
+            "gap_id": "G3",
+            "missing_aspect": "真正相反或削弱假设的权威裁判规则",
+            "route": "counter_weakening"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "核对第068号通知与《普通高等学校学生管理规定》相关条文的具体冲突点",
+            "核对田永案卷宗中是否听取陈述申辩、是否告知申诉权的直接材料",
+            "核对送达事实与法院查明之间的差异及生效裁判的认定范围",
+            "确认反向路线是否存在未纳入的相反权威裁判或例外规则"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "指导案例38号明确颁证行为可诉、违背上位法的校规不予支持、影响基本权利的决定应允许申辩并及时送达，用于核对边界而非否定假设。",
+              "role": "指导案例规则的反向/边界核对"
+            }
+          ],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+              "note": "载明田永被退学处理、学校未直接宣布处分决定和送达变更学籍通知、田永继续以在校生身份学习等事实。",
+              "role": "田永案事实与程序背景"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "载明高校学籍管理与颁证职责、行政诉讼被告资格、校规不得抵触上位规章及退学处理违法等裁判规则。",
+              "role": "田永案生效裁判规则"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE01-0005",
+              "note": "支持退学处理决定属于行政诉讼受案范围，并明确未听取陈述申辩、未提交校长会议、未告知申诉权等程序违法。",
+              "role": "谭帆案参考性案例支持"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "支持高校是行政诉讼适格被告、校规须符合上位法、与上位规章抵触的退学处理决定违法。",
+              "role": "田永案生效裁判支持"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "三路证据在高校被告资格、校规合法性审查和正当程序要求上总体一致，核心结论有生效裁判和指导案例支持。",
+            "缺少完整法条与校规文本，无法进行逐条规范比对。",
+            "田永案中是否听取陈述申辩缺少直接证据，程序违法论证部分依赖同类案例和指导案例规则。",
+            "送达事实存在被告主张与法院查明之间的表述差异，虽已由生效裁判认定，但仍需人工核对卷宗。"
+          ]
+        }
+      },
+      "CASE-02": {
+        "answer": "在符合“未办理结婚登记且未共同生活”，或“已登记但婚姻存续极短、女方无正当理由拒绝共同生活、无实质共同生活、无共同合理支出、无法定酌减事由”等情形时，彩礼缔结婚姻、组建家庭的核心目的可认定落空，支持全额返还（90%-100%）。郑某诉吴某案中，双方登记后仅相处十天，接收方拒绝共同生活，彩礼未实际使用、未置办嫁妆、未共同孕育子女，法院判令返还全部彩礼20万元。但反向案例显示，已登记短婚如存在短暂同居、共同消费、妊娠终止、彩礼数额过高等酌减事实，法院可能仅按比例返还（如返还80万元/106万元、56400元/188000元），故不能将90%-100%机械适用于所有已登记短婚情形。应重点审查共同生活实质、共同合理支出、嫁妆、孕育、双方过错、彩礼数额及当地经济水平。",
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "虽然办理结婚登记可以使当事人在法律上成立夫妻关系，但这并不足以认定一方给付彩礼的目的已经实现，人民法院还应结合双方对婚姻的态度、是否形成稳定的共同生活等事实予以认定。",
+                "quote_id": "E1-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "虽然办理结婚登记可以使当事人在法律上成立夫妻关系，但这并不足以认定一方给付彩礼的目的已经实现，人民法院还应结合双方对婚姻的态度、是否形成稳定的共同生活等事实予以认定。",
+                "quote_id": "E2-S21",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "实践中，给付彩礼的目的除了办理结婚登记手续这一法定形式要件外，更重要的是双方形成长期、稳定的共同生活状态。",
+                "quote_id": "E4-S14",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "【典型意义】  彩礼是以缔结婚姻为特定目的的附条件财物给付，区别于普通民事赠与，实践中存有一些“订婚即定亲，收了彩礼无需还”的错误认知，在婚约无法继续履行时，一方拒不退还彩礼，极易加剧婚恋家事矛盾。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C1",
+            "claim_text": "彩礼以缔结婚姻为目的；办理结婚登记只使双方在法律上成立夫妻关系，并不足以单独认定给付彩礼的目的已经实现，还应结合双方对婚姻的态度、是否形成稳定共同生活、是否建立夫妻感情等事实认定。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第五条 双方已办理结婚登记且共同生活，离婚时一方请求返还按照习俗给付的彩礼的，人民法院一般不予支持。",
+                "quote_id": "E6-S16",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "但是，如果共同生活时间较短且彩礼数额过高的，人民法院可以根据彩礼实际使用及嫁妆情况，综合考虑彩礼数额、共同生活及孕育情况、双方过错等事实，结合当地习俗，确定是否返还以及返还的具体比例。",
+                "quote_id": "E6-S17",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "人民法院认定彩礼数额是否过高，应当综合考虑彩礼给付方所在地居民人均可支配收入、给付方家庭经济情况以及当地习俗等因素。",
+                "quote_id": "E6-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C2",
+            "claim_text": "已办理结婚登记且共同生活，离婚时请求返还彩礼一般不予支持；但共同生活时间较短且彩礼数额过高的，可综合彩礼实际使用及嫁妆、共同生活及孕育、双方过错、当地习俗等确定是否返还及比例。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第六条 双方未办理结婚登记但已共同生活，一方请求返还按照习俗给付的彩礼的，人民法院应当根据彩礼实际使用及嫁妆情况，综合考虑共同生活及孕育情况、双方过错等事实，结合当地习俗，确定是否返还以及返还的具体比例。",
+                "quote_id": "E6-S19",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条规定，双方未办理结婚登记手续，当事人请求返还按照习俗给付的彩礼的，人民法院应当予以支持。",
+                "quote_id": "E5-S6",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "本案中，张某为缔结婚姻，给付杨某7万元彩礼，双方未办理结婚登记手续，也未共同生活，张某要求杨某返还彩礼，符合司法解释的规定，应予支持。",
+                "quote_id": "E5-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "彩礼是以结婚为目的的赠与，在双方未办理结婚登记且未共同生活的情形下，给付彩礼的目的未实现，彩礼应予返还。",
+                "quote_id": "E5-S12",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C3",
+            "claim_text": "双方未办理结婚登记但已共同生活的，返还彩礼应综合彩礼实际使用及嫁妆、共同生活及孕育、双方过错、当地习俗等确定是否返还及比例；未办理结婚登记且未共同生活的，给付彩礼目的未实现，应支持返还。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第二条 禁止借婚姻索取财物。",
+                "quote_id": "E6-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "一方以彩礼为名借婚姻索取财物，另一方要求返还的，人民法院应予支持。",
+                "quote_id": "E6-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E1-S14",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C4",
+            "claim_text": "禁止借婚姻索取财物；一方以彩礼为名借婚姻索取财物，另一方要求返还的，人民法院应予支持。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E1-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "在此情况下，人民法院判令解除婚姻关系、彩礼接收方返还全部彩礼。",
+                "quote_id": "E1-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E2-S20",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "在此情况下，人民法院判令解除婚姻关系、彩礼接收方返还全部彩礼。",
+                "quote_id": "E2-S23",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C5",
+            "claim_text": "在郑某诉吴某案中，双方登记结婚后仅相处十天，彩礼接收方拒绝共同生活，彩礼未实际使用、未置办嫁妆、未共同孕育子女，法院认定属于应当返还彩礼情形并判令返还全部20万元。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，双方从相识至办理结婚登记再到分开仅短暂的十余天时间，虽已办理结婚登记，但共同相处时间明显较短，双方也未共同生育子女，且经郑某多次催促，吴某拒绝返回，双方一直未进行有效的感情交流与沟通，至今未真正建立起夫妻感情，故对郑某要求离婚之诉请，予以支持。",
+                "quote_id": "E1-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E1-S14",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "本案中，双方从相识至办理结婚登记再到分开仅短暂的十余天时间，虽已办理结婚登记，但共同相处时间明显较短，双方也未共同生育子女，且经郑某多次催促，吴某拒绝返回，双方一直未进行有效的感情交流与沟通，至今未真正建立起夫妻感情，故对郑某要求离婚之诉请，予以支持。",
+                "quote_id": "E2-S19",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E2-S22",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C6",
+            "claim_text": "该案从相识至登记再到分开仅十余天，双方未形成稳定共同生活状态、未建立真正夫妻感情，且从接收方对婚姻的态度和行为看存在借婚姻索取财物的可能性。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "双方未办理结婚登记手续，也未共同生活。",
+                "quote_id": "E5-S3",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "本案中，张某为缔结婚姻，给付杨某7万元彩礼，双方未办理结婚登记手续，也未共同生活，张某要求杨某返还彩礼，符合司法解释的规定，应予支持。",
+                "quote_id": "E5-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "彩礼是以结婚为目的的赠与，在双方未办理结婚登记且未共同生活的情形下，给付彩礼的目的未实现，彩礼应予返还。",
+                "quote_id": "E5-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "人民法院依法判决杨某返还张某7万元。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C7",
+            "claim_text": "未办理结婚登记且未共同生活的情形下，彩礼给付目的未实现，法院支持全额返还彩礼。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "举办婚礼后，二人同居一晚，张某便返回娘家，双方未实际共同生活。",
+                "quote_id": "E4-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "本案中，闫某与张某举行了婚礼，双方仅共同生活一晚，张某便离家，且以尚有部分彩礼和购车贷款未付清为由，拒绝办理结婚登记手续，将索取财物作为缔结婚姻的条件，对婚约的解除负有重大过错。",
+                "quote_id": "E4-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "鉴于双方同居时间极短、未孕育子女，张某应全额返还彩礼。",
+                "quote_id": "E4-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "闫某给付张某的首饰款和购车款，均系闫某基于缔结婚姻的期待而作出的大额赠与，属于彩礼范畴，应予返还。",
+                "quote_id": "E4-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C8",
+            "claim_text": "未办理结婚登记但按习俗举办婚礼后仅同居一晚，接收方以彩礼未付清等为由拒绝办理结婚登记并将索取财物作为缔结婚姻条件，同居极短且未孕育子女的，法院可判令全额返还彩礼及基于缔结婚姻期待的大额首饰款、购车款。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "后因筹备举办婚礼等事宜发生纠纷，双方于2020年11月协议离婚，婚姻关系存续不到三个月。",
+                "quote_id": "E7-S4",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "双方虽有短暂同居经历，但尚未形成完整的家庭共同体和稳定的生活状态，不能认定为已经有稳定的共同生活。",
+                "quote_id": "E7-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "鉴于双方已经登记结婚，且刘某支付彩礼后双方有共同筹备婚礼仪式、共同旅游、亲友相互往来等共同开销的情况，对该部分费用予以扣减。",
+                "quote_id": "E7-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "据此，法院酌情认定返还彩礼80万元。",
+                "quote_id": "E7-S14",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C9",
+            "claim_text": "已办理结婚登记但婚姻关系存续不到三个月、仅有短暂同居、双方未形成完整家庭共同体和稳定生活状态，同时存在共同筹备婚礼、旅游、亲友往来等共同开销的，法院可能扣除共同消费后仅返还大部分彩礼，而非全额。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "案例一：已办理结婚登记但共同生活时间较短，离婚时应当根据共同生活时间、孕育子女等事实对数额过高的彩礼酌情返还——王某某与李某某离婚纠纷案",
+                "quote_id": "E8-S4",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "结合当地经济生活水平及王某某家庭经济情况，王某某所给付的彩礼款18.8万元属于数额过高，事实上造成较重的家庭负担。",
+                "quote_id": "E8-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "综合考虑双方共同生活时间较短，女方曾有终止妊娠等事实，为妥善平衡双方当事人利益，化解矛盾纠纷，酌定李某某返还彩礼款56400元。",
+                "quote_id": "E8-S16",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "已办理结婚登记但共同生活时间较短、彩礼数额过高并造成较重家庭负担，且女方曾有终止妊娠事实的，法院可能仅酌定返还部分彩礼，而非90%-100%。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "日常消费性支出以及表情达意的小额转账不属于彩礼范围。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "在具体案件中，人民法院应当结合当地风俗习惯和日常生活经验，厘清双方间的往来款项系为表达、增进感情的消费性支出还是彩礼，从而适用相关规则予以处理。",
+                "quote_id": "E3-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "若以夫妻名义共同生活数年且已共同养育子女后仍要求返还彩礼，对孙某明显不公平，故判决驳回王某的诉讼请求。",
+                "quote_id": "E3-S23",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "已共同生活较长时间并建立起家庭共同体的情况下，一方在关系破裂后主张返还彩礼的，对其请求不予支持，贯彻诚实信用原则，妥善平衡双方利益。",
+                "quote_id": "E3-S27",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "日常消费性支出以及表达、增进感情的小额转账不属于彩礼；未办理结婚登记但共同生活时间较长且已生育子女的，一方请求返还彩礼一般不予支持。",
+            "claim_type": "boundary",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E1-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "双方曾短暂同居，并因筹备婚宴、拍婚纱照、共同旅游、亲友相互往来等发生部分费用。",
+                "quote_id": "E7-S6",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "李某某于2021年4月终止妊娠。",
+                "quote_id": "E8-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "综合考虑双方共同生活时间较短，女方曾有终止妊娠等事实，为妥善平衡双方当事人利益，化解矛盾纠纷，酌定李某某返还彩礼款56400元。",
+                "quote_id": "E8-S16",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C12",
+            "claim_text": "郑某诉吴某案与刘某与朱某案、王某某与李某某案可区分：前者登记后仅十天且接收方拒绝共同生活、无共同消费与妊娠等酌减事实；后两者存在短暂同居、共同消费或终止妊娠等影响返还比例的事实。",
+            "claim_type": "distinguishable",
+            "support_status": "supported"
+          }
+        ],
+        "condition": "HG2-C1_COMPETITIVE",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C5",
+              "C9",
+              "C10"
+            ],
+            "conflict_id": "CF1",
+            "description": "C5支持登记后极短且接收方拒绝共同生活时全额返还；C9、C10显示登记后短婚如存在短暂同居、共同消费、妊娠终止、彩礼过高等酌减事实，法院可能仅按比例返还。二者张力可通过共同生活实质及酌减事实区分，并由E6所载综合裁量规则解决。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "缺少对“女方无正当理由拒绝共同生活”中“正当理由”的认定标准及举证责任分配。",
+            "gap_id": "G1",
+            "missing_aspect": "正当理由与举证责任",
+            "route": "neutral_governing"
+          },
+          {
+            "description": "缺少案件具体经济数据（彩礼给付方所在地居民人均可支配收入、给付方家庭经济情况、当地习俗）以判断彩礼是否过高及酌减比例。",
+            "gap_id": "G2",
+            "missing_aspect": "彩礼过高与比例裁量的经济数据",
+            "route": "support"
+          },
+          {
+            "description": "缺少对双方是否存在共同合理支出、嫁妆、共同消费、妊娠等酌减事实的直接证据，无法排除部分返还。",
+            "gap_id": "G3",
+            "missing_aspect": "酌减事实",
+            "route": "counter_weakening"
+          },
+          {
+            "description": "郑某诉吴某案原审法院、案号、裁判日期未公开披露，影响对裁判事实与程序细节的审计追踪。",
+            "gap_id": "G4",
+            "missing_aspect": "原审程序信息",
+            "route": "neutral_governing"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "核实是否存在实质共同生活、共同合理支出、嫁妆、妊娠等酌减事实",
+            "核实女方拒绝共同生活是否有正当理由及双方过错",
+            "核实彩礼数额是否过高及当地经济水平",
+            "确认是否适用借婚姻索取财物或骗婚路径及相应证明标准",
+            "补充郑某诉吴某案原审程序信息（如可获取）"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+              "note": "郑某诉吴某案：登记后仅相处十天、接收方拒绝共同生活、彩礼未使用、未置办嫁妆、未共同孕育，法院判令全额返还20万元，并阐明登记不当然等于彩礼目的实现。",
+              "role": "裁判规则与典型案例事实"
+            },
+            {
+              "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TGT-CASE02-0001",
+              "note": "与E1同案的最高人民法院典型案例文本，核心事实与裁判理由一致；原审法院、案号、裁判日期未公开披露。",
+              "role": "典型案例发布文本"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+              "note": "日常消费性支出及表情达意的小额转账不属于彩礼；未登记但长期共同生活并生育子女的，一般不支持返还；并含郑某诉吴某案标题。",
+              "role": "边界规则与对照案例"
+            },
+            {
+              "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE02-0090",
+              "note": "闫某诉张某案：举办婚礼后仅同居一晚，接收方以彩礼未付清等为由拒绝登记，法院认定将索取财物作为缔结婚姻条件，判令全额返还彩礼及大额首饰款、购车款。",
+              "role": "未登记但举办婚礼后极短同居的裁判"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE02-0049",
+              "note": "未办理结婚登记且未共同生活，彩礼给付目的未实现，法院支持全额返还7万元。",
+              "role": "支持全额返还的规范与案例"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+              "note": "规定禁止借婚姻索取财物、彩礼范围排除项、已登记共同生活一般不支持返还但短婚高额可酌减、未登记但共同生活应综合裁量等规则。",
+              "role": "涉彩礼纠纷司法解释"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "郑某诉吴某案直接支持登记后极短且拒绝共同生活时全额返还，但该案以彩礼未使用、未置办嫁妆、未共同孕育子女等为条件。",
+            "反向案例表明已登记短婚如存在短暂同居、共同消费、妊娠终止、彩礼过高等，返还比例可能显著降低。",
+            "缺少案件具体经济数据与酌减事实，无法机械确定90%-100%的返还比例。",
+            "部分事实仅有典型案例文本，原审程序信息未公开披露。"
+          ]
+        }
+      },
+      "CASE-03": {
+        "answer": "综合在卷裁判规则与指导案例，于海明抢到砍刀后，刘某立即上前争夺，受伤后又跑向藏匿砍刀的汽车，既未放弃攻击，也未实质性脱离现场，不法侵害仍处于“正在进行”状态；于海明不间断追击两刀未中，刘某跑离后即停止追击，追砍行为具有防卫适时性。面对持砍刀连续击打且足以严重危及人身安全的“行凶”行为，应适用特殊防卫规则，造成刘某死亡不属于防卫过当；不能以于海明本人伤情较轻与死亡结果对比不相适应为由否定正当防卫。判断防卫时间与强度应立足防卫人当时紧张、紧迫情境，按社会公众一般认知作事前判断，不能苛求防卫人精准控制防卫强度。",
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "论证后认为，判断侵害行为是否已经结束，应看侵害人是否已经实质性脱离现场以及是否还有继续攻击或再次发动攻击的可能。",
+                "quote_id": "E1-S3",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C01",
+            "claim_text": "判断不法侵害是否已经结束，应看侵害人是否已经实质性脱离现场以及是否还有继续攻击或再次发动攻击的可能。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "于海明抢到砍刀后，刘某立刻上前争夺，侵害行为没有停止，刘某受伤后又立刻跑向之前藏匿砍刀的汽车，于海明此时作不间断的追击也符合防卫的需要。",
+                "quote_id": "E1-S4",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C02",
+            "claim_text": "于海明抢到砍刀后，刘某立刻上前争夺，侵害行为没有停止；刘某受伤后又立刻跑向之前藏匿砍刀的汽车，于海明此时作不间断追击符合防卫需要。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "于海明追砍两刀均未砍中，刘某从汽车旁边跑开后，于海明也未再追击。",
+                "quote_id": "E1-S5",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C03",
+            "claim_text": "于海明追砍两刀均未砍中，刘某从汽车旁边跑开后，于海明也未再追击，说明追击行为限于制止侵害所需。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，在于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+                "quote_id": "E1-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C04",
+            "claim_text": "于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "刑法第二十条第三款规定，“对正在进行行凶、杀人、抢劫、强奸、绑架以及其他严重危及人身安全的暴力犯罪，采取防卫行为，造成不法侵害人伤亡的，不属于防卫过当，不负刑事责任”。",
+                "quote_id": "E1-S13",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C05",
+            "claim_text": "对正在进行行凶、杀人、抢劫、强奸、绑架以及其他严重危及人身安全的暴力犯罪采取防卫行为，造成不法侵害人伤亡的，不属于防卫过当，不负刑事责任。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "论证后认为，不法侵害行为既包括实害行为也包括危险行为，对于危险行为同样可以实施正当防卫。",
+                "quote_id": "E1-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C06",
+            "claim_text": "不法侵害行为既包括实害行为也包括危险行为，对于危险行为同样可以实施正当防卫。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "认为“于海明与刘某的伤情对比不相适应”的意见，只注意到了实害行为而忽视了危险行为，这种意见实际上是要求防卫人应等到暴力犯罪造成一定的伤害后果才能实施防卫，这不符合及时制止犯罪、让犯罪不能得逞的防卫需要，也不适当地缩小了正当防卫的依法成立范围，是不正确的。",
+                "quote_id": "E1-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C07",
+            "claim_text": "仅以于海明与刘某伤情对比不相适应为由认定防卫过当，只注意实害行为而忽视危险行为，不符合及时制止犯罪的防卫需要。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "本案中，在刘某的行为因具有危险性而属于“行凶”的前提下，于海明采取防卫行为致其死亡，依法不属于防卫过当，不负刑事责任，于海明本人是否受伤或伤情轻重，对正当防卫的认定没有影响。",
+                "quote_id": "E1-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，刘某的行为符合“行凶”的认定标准，应当认定为“行凶”。",
+                "quote_id": "E2-S27",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C08",
+            "claim_text": "在刘某行为因具有危险性而属于行凶的前提下，于海明采取防卫行为致其死亡，依法不属于防卫过当，于海明本人是否受伤或伤情轻重对正当防卫认定没有影响。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "适用本款规定，“行凶”是认定的难点，对此应当把握以下两点：一是必须是暴力犯罪，对于非暴力犯罪或一般暴力行为，不能认定为行凶；二是必须严重危及人身安全，即对人的生命、健康构成严重危险。",
+                "quote_id": "E1-S17",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在具体案件中，有些暴力行为的主观故意尚未通过客观行为明确表现出来，或者行为人本身就是持概括故意予以实施，这类行为的故意内容虽不确定，但已表现出多种故意的可能，其中只要有现实可能造成他人重伤或死亡的，均应当认定为“行凶”。",
+                "quote_id": "E1-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C09",
+            "claim_text": "行凶认定要求行为属于暴力犯罪且严重危及人身安全；暴力行为故意内容虽不确定，但只要现实可能造成他人重伤或死亡，均应认定为行凶。",
+            "claim_type": "boundary",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "”据此，判断不法侵害是否已经结束，不能苛求防卫人在紧张、紧迫的情境下对侵害人的侵害能力和侵害意图作出精准判断，而应当立足防卫人在防卫时所处具体情境，按照社会公众的一般认知，综合考量侵害行为的急缓程度、侵害工具的危险性、侵害人是否仍有继续实施侵害的现实可能性等因素，作出合乎情理的判断。",
+                "quote_id": "E3-S5",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "判断不法侵害是否已经结束，不能苛求防卫人在紧张、紧迫情境下精准判断侵害能力和意图，应立足防卫人当时情境，按社会公众一般认知综合考量。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "不法侵害虽然被暂时制止，但是立足于防卫人当时所处情境，以社会公众的一般认知，认为不法侵害人仍有继续实施侵害的现实可能性的，应当认定为不法侵害仍在进行。",
+                "quote_id": "E3-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "不法侵害虽被暂时制止，但立足防卫人当时情境，以社会公众一般认知认为侵害人仍有继续实施侵害现实可能性的，应认定不法侵害仍在进行。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "吴某华虽被拉倒在地、菜刀被踢开，但吴某华当时处于醉酒状态，其行为不受控制，倒地后仍有起身意图，二被告人有理由相信吴某华仍有可能继续实施侵害。",
+                "quote_id": "E3-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "站在社会公众的视角判断，要求二被告人在吴某华倒地后瞬间精准判断其是否已经完全丧失侵害能力，不具有合理性和现实性。",
+                "quote_id": "E3-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "因此，根据本案二被告人所处的情境，应当认为吴某华仍有继续实施不法侵害的现实可能性，即不法侵害尚未结束，二被告人的后续踢打行为仍然是为了制止不法侵害。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C12",
+            "claim_text": "类似情境中，侵害人虽倒地且凶器被踢开，但处于醉酒状态、仍有起身意图时，不能要求防卫人瞬间精准判断其是否完全丧失侵害能力，应认定仍有继续侵害的现实可能性。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在论证过程中有意见提出，于海明抢到砍刀后，刘某的侵害行为已经结束，不属于正在进行。",
+                "quote_id": "E1-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，在于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+                "quote_id": "E1-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C13",
+            "claim_text": "反对意见认为，于海明抢到砍刀后刘某的侵害行为已经结束，不属于正在进行。",
+            "claim_type": "counter",
+            "support_status": "contradicted"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在论证过程中有意见提出，于海明本人所受损伤较小，但防卫行为却造成了刘某死亡的后果，二者对比不相适应，于海明的行为属于防卫过当。",
+                "quote_id": "E1-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "认为“于海明与刘某的伤情对比不相适应”的意见，只注意到了实害行为而忽视了危险行为，这种意见实际上是要求防卫人应等到暴力犯罪造成一定的伤害后果才能实施防卫，这不符合及时制止犯罪、让犯罪不能得逞的防卫需要，也不适当地缩小了正当防卫的依法成立范围，是不正确的。",
+                "quote_id": "E1-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C14",
+            "claim_text": "反对意见认为，于海明本人所受损伤较小，但防卫行为造成刘某死亡，二者对比不相适应，于海明行为属于防卫过当。",
+            "claim_type": "counter",
+            "support_status": "contradicted"
+          }
+        ],
+        "condition": "HG2-C1_COMPETITIVE",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C13",
+              "C01",
+              "C04"
+            ],
+            "conflict_id": "CF01",
+            "description": "反对意见主张抢刀后侵害已结束；裁判规则与事实认定认为刘某未放弃攻击、未实质性脱离现场，侵害仍在进行。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          },
+          {
+            "between_claim_ids": [
+              "C14",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "conflict_id": "CF02",
+            "description": "反对意见以伤情对比不相适应主张防卫过当；裁判规则认为不法侵害包括危险行为，行凶前提下致死亡不属防卫过当。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "缺少刘某受伤后跑向汽车时具体主观意图的直接证据，究竟为取刀继续攻击还是逃离，只能依现场情境推断其仍有继续侵害的现实可能性。",
+            "gap_id": "G01",
+            "missing_aspect": "侵害人跑向车辆时的主观意图与即时危险性的直接证据",
+            "route": "counter_weakening"
+          },
+          {
+            "description": "缺少于海明追砍两刀与刘某跑离汽车之间精确时间间隔及现场动态的细化证据。",
+            "gap_id": "G02",
+            "missing_aspect": "追砍行为与侵害状态之间的精确时间关系",
+            "route": "counter_weakening"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "复核刘某跑向汽车时是否仍有继续攻击或取刀的现实可能性。",
+            "复核追砍两刀与刘某跑离之间的时间连续性及于海明停止追击的节点。",
+            "确认特殊防卫与行凶认定在本案事实中的适用边界。"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [
+            {
+              "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE03-0297",
+              "note": "虽列于反向材料，但其规则用于检验时间条件，未形成实质反证。",
+              "role": "反向材料位中的检验材料"
+            }
+          ],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+              "note": "载明于海明案基本事实、行凶认定及正当防卫撤案结论。",
+              "role": "检例第47号指导案例"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE03-0297",
+              "note": "支持不能苛求防卫人精准判断侵害是否结束，应依情境和社会公众一般认知判断。",
+              "role": "类似情境规则支持"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "核心规范与指导案例对防卫适时性、特殊防卫及行凶认定支持明确。",
+            "刘某跑向汽车时的主观意图、精确时间间隔等细节仍依赖情境推断。",
+            "反向材料未提供足以推翻指导案例结论的实质反证，但存在需要说明的细节缺口。"
+          ]
+        }
+      }
+    },
+    "HG2-C2_COMPETITIVE_AUDIT": {
+      "CASE-01": {
+        "answer": "综合三路证据，当前观点的三项要点基本成立：第一，公立高校在行使学籍管理、颁发学业证书、学位证书等法律授予的教育行政管理职权时，属于法律、法规授权的组织，具备行政诉讼被告资格，学生不服退学处理决定提起诉讼属于行政诉讼受案范围；第二，高校有权制定校规校纪并进行学籍管理和违纪处分，但校规及据此作出的处分不得抵触上位法律、法规、规章，与上位规章冲突的校规不能作为处分依据，法院可审查其合法性；第三，高校作出影响受教育者基本权利的退学处理决定时，应遵循正当程序或最低程序要求，未依法送达、未听取陈述申辩、未告知申诉权等可构成程序违法。反向/边界材料主要提示被告资格来源于法律授予的特定行政管理职权，并非高校所有管理行为当然可诉，但不足以推翻本案结论。因缺少完整法条文本及田永案是否听取申辩的直接证据，结论仍需人工复核。",
+        "audit_panel": {
+          "descriptive_only": true,
+          "not_correctness_or_fairness_evidence": true,
+          "signals": [
+            {
+              "current_budget": 2,
+              "new_authority": true,
+              "new_document": false,
+              "novelty_score": 0.8929359823399559,
+              "query_id": "DENSE-Q-0014",
+              "ranking_gap_signal": 0.0,
+              "reason": "rank 2 and rank 3 are tied within the preregistered threshold and the next distinct candidate adds a new authority/document",
+              "role": null,
+              "route": "neutral_governing",
+              "target_budget": 3,
+              "trigger_type": "BOUNDARY_TIE"
+            },
+            {
+              "current_budget": 2,
+              "new_authority": false,
+              "new_document": false,
+              "novelty_score": null,
+              "query_id": "DENSE-Q-0014",
+              "ranking_gap_signal": 0.0,
+              "reason": "relative RRF gap at the current cut is within the preregistered tie threshold",
+              "role": null,
+              "route": "neutral_governing",
+              "target_budget": 3,
+              "trigger_type": "SCORE_GAP_ONLY"
+            }
+          ]
+        },
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "法院生效裁判认为：根据我国法律、法规规定，高等学校对受教育者有进行学籍管理、奖励或处分的权力，有代表国家对受教育者颁发学历证书、学位证书的职责。",
+                "quote_id": "E2-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校与受教育者之间属于教育行政管理关系，受教育者对高等学校涉及受教育者基本权利的管理行为不服的，有权提起行政诉讼，高等学校是行政诉讼的适格被告。",
+                "quote_id": "E2-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "教育法第二十八条规定的学校及其他教育机构行使的权利中，第（四）项明文规定：“对受教育者进行学籍管理，实施奖励或者处分”。",
+                "quote_id": "E3-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "由此可见学籍管理也是学校依法对受教育者实施的一项特殊的行政管理。",
+                "quote_id": "E3-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "谭帆诉西南大学不服退学处理决定案参考性案例2号 　　关键词　　行政 退学处理 程序违法　　裁判要点　　1、高等学校作出的退学处理决定属于学校行使法律赋予的教育行政管理职权，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围；　　2、学校作出退学处理决定，应当遵循《普通高等学校学生管理规定》的程序要求，否则应当认定为违法。",
+                "quote_id": "E4-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C1",
+            "claim_text": "公立高校在行使学籍管理、颁发学业证书、学位证书等法律授予的教育行政管理职权时，属于法律、法规授权的组织，具备行政诉讼被告资格。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "谭帆诉西南大学不服退学处理决定案参考性案例2号 　　关键词　　行政 退学处理 程序违法　　裁判要点　　1、高等学校作出的退学处理决定属于学校行使法律赋予的教育行政管理职权，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围；　　2、学校作出退学处理决定，应当遵循《普通高等学校学生管理规定》的程序要求，否则应当认定为违法。",
+                "quote_id": "E4-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "依据《最高人民法院关于执行<中华人民共和国行政诉讼法>若干问题的解释》第一条之规定，学生不服学校作出的处理决定提起诉讼，属于行政诉讼受案范围。",
+                "quote_id": "E4-S22",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校与受教育者之间属于教育行政管理关系，受教育者对高等学校涉及受教育者基本权利的管理行为不服的，有权提起行政诉讼，高等学校是行政诉讼的适格被告。",
+                "quote_id": "E2-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C2",
+            "claim_text": "学生不服高校作出的退学处理决定提起诉讼，属于行政诉讼受案范围。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "高等学校依法具有相应的教育自主权，有权制定校纪、校规，并有权对在校学生进行教学管理和违纪处分，但是其制定的校纪、校规和据此进行的教学管理和违纪处分，必须符合法律、法规和规章的规定，必须尊重和保护当事人的合法权益。",
+                "quote_id": "E2-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "2.高等学校依据违背国家法律、行政法规或规章的校规、校纪，对受教育者作出退学处理等决定的，人民法院不予支持。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C3",
+            "claim_text": "高校有权制定校纪校规并进行学籍管理和违纪处分，但其校规及据此作出的处分必须符合法律、法规、规章的规定。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "本案原告在补考中随身携带纸条的行为属于违反考场纪律的行为，被告可以按照有关法律、法规、规章及学校的有关规定处理，但其对原告作出退学处理决定所依据的该校制定的第068号通知，与《普通高等学校学生管理规定》第二十九条规定的法定退学条件相抵触，故被告所作退学处理决定违法。",
+                "quote_id": "E2-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "2.高等学校依据违背国家法律、行政法规或规章的校规、校纪，对受教育者作出退学处理等决定的，人民法院不予支持。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C4",
+            "claim_text": "高校依据与上位规章相抵触的校规作出的退学处理决定违法，该抵触上位规定的校规不能作为处分依据。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "3.高等学校对因违反校规、校纪的受教育者作出影响其基本权利的决定时，应当允许其申辩并在决定作出后及时送达，否则视为违反法定程序。",
+                "quote_id": "E5-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "教育部颁布《普通高等学校学生管理规定》，规定对学生作退学处理应当提交校长会议研究决定，且在送达处理决定时应当告知其有申诉的权利。",
+                "quote_id": "E4-S25",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "学校在作出行政决定时，应当遵循回避和听取对方意见的最低程序性规定。",
+                "quote_id": "E4-S26",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "西南大学做出退学处理决定前，没有告知谭帆进行陈述和申辩，未充分听取谭帆的意见，违反了最低限度的程序要求。",
+                "quote_id": "E4-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "在对谭帆作出退学处理决定之前没有提交校长会议研究决定，作出退学处理决定时也未告知原告谭帆享有书面申诉的权利，属程序违法。",
+                "quote_id": "E4-S28",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C5",
+            "claim_text": "高校作出影响受教育者基本权利的退学处理决定时，应遵循正当程序或最低程序要求，包括听取陈述申辩、依法提交校长会议研究、及时送达并告知申诉权等。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "但是，北京科技大学没有直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续。",
+                "quote_id": "E1-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "同年4月10日，被告填发了学籍变动通知，但退学处理决定和变更学籍的通知未直接向田永宣布、送达，也未给田永办理退学手续，田永继续以该校大学生的身份参加正常学习及学校组织的活动。",
+                "quote_id": "E5-S21",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C6",
+            "claim_text": "田永案中，学校未直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续，田永继续以在校大学生身份参加正常学习及学校组织的活动。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "2010年9月28日，西南大学作出《关于给予谭帆同学退学处理的决定》（此前未告知谭帆进行陈述和申辩，亦未经校长会议研究），内容为：“音乐学院音乐学专业（师范）2009级本科学生谭帆（学号222009311011036），该生长期无故旷课已超过60学时，且目前不合格科目达10门。",
+                "quote_id": "E4-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "西南大学做出退学处理决定前，没有告知谭帆进行陈述和申辩，未充分听取谭帆的意见，违反了最低限度的程序要求。",
+                "quote_id": "E4-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "在对谭帆作出退学处理决定之前没有提交校长会议研究决定，作出退学处理决定时也未告知原告谭帆享有书面申诉的权利，属程序违法。",
+                "quote_id": "E4-S28",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE01-0005",
+                "quote": "故西南大学做出的退学处理决定依法应予撤销；对谭帆起诉要求撤销退学处理决定的请求予以支持。",
+                "quote_id": "E4-S29",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C7",
+            "claim_text": "谭帆案中，学校作出退学处理前未告知谭帆进行陈述和申辩、未提交校长会议研究，送达决定时未告知书面申诉权，被法院认定程序违法并撤销退学处理决定。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "在我国目前情况下，某些事业单位、社会团体，虽然不具有行政机关的资格，但是法律赋予它行使一定的行政管理职权。",
+                "quote_id": "E3-S1",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "他们之间因管理行为而发生的争议，不是民事诉讼，而是行政诉讼。",
+                "quote_id": "E3-S3",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C8",
+            "claim_text": "反向/边界材料表明，高校行政诉讼被告资格来源于法律授予的特定行政管理职权，并非高校所有管理行为当然可诉；应结合是否涉及受教育者基本权利或是否属于代表国家颁证等公权力行使情形判断。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "本案被告北京科技大学是从事高等教育事业的法人，原告田永诉请其颁发毕业证、学位证，正是由于其代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可以适用行政诉讼法予以解决。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "这些单位、团体与管理相对人之间不存在平等的民事关系，而是特殊的行政管理关系。",
+                "quote_id": "E3-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+                "quote": "1.高等学校对受教育者因违反校规、校纪而拒绝颁发学历证书、学位证书，受教育者不服的，可以依法提起行政诉讼。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C9",
+            "claim_text": "田永诉请颁发毕业证、学位证，属于高校代表国家行使对受教育者颁发学业证书、学位证书的行政权力时引起的行政争议，可适用行政诉讼法解决。",
+            "claim_type": "distinguishable",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "1996年2月29日，田永在参加电磁学课程补考过程中，随身携带写有电磁学公式的纸条，中途去厕所时，纸条掉出，被监考教师发现。",
+                "quote_id": "E1-S24",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "北京科技大学于同年3月5日按照“068号通知”第三条第五项关于“夹带者，包括写在手上等作弊行为者”的规定，认定田永的行为是考试作弊，根据第一条“凡考试作弊者，一律按退学处理”的规定，决定对田永按退学处理，4月10日填发了学籍变动通知。",
+                "quote_id": "E1-S26",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "但是，北京科技大学没有直接向田永宣布处分决定和送达变更学籍通知，也未给田永办理退学手续。",
+                "quote_id": "E1-S27",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "田永继续在该校以在校大学生的身份参加正常学习及学校组织的活动。",
+                "quote_id": "E1-S28",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "田永因在补考中随身携带写有电磁学公式的纸条被认定考试作弊并按退学处理，但学校未直接宣布处分决定和送达变更学籍通知，田永继续以在校大学生身份参加正常学习及学校组织的活动。",
+            "claim_type": "neutral_background",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "被告辩称：原告田永违反本校《关于严格考试管理的紧急通知》（以下简称068号通知）中的规定，在补考过程中夹带写有电磁学公式的纸条被监考教师发现，本校决定对田永按退学处理，通知校内有关部门给田永办理退学手续。",
+                "quote_id": "E1-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "给田永本人的通知，也已经通过校内信箱送达到田永所在的学院。",
+                "quote_id": "E1-S16",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+                "quote": "由于田永不配合办理有关手续，校内的一些部门工作不到位，再加上部分教职工不了解情况等原因，造成田永在退学后仍能继续留在学校学习的事实。",
+                "quote_id": "E1-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "被告北京科技大学辩称，对田永按退学处理，并称给田永本人的通知已通过校内信箱送达到田永所在学院，田永不配合办理手续。",
+            "claim_type": "neutral_background",
+            "support_status": "supported"
+          }
+        ],
+        "condition": "HG2-C2_COMPETITIVE_AUDIT",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C6",
+              "C11"
+            ],
+            "conflict_id": "CF1",
+            "description": "被告主张已通过校内信箱送达通知，而法院查明学校未直接向田永宣布处分决定和送达变更学籍通知；二者在送达事实层面存在表述差异。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+            "resolution_status": "resolved"
+          },
+          {
+            "between_claim_ids": [
+              "C3",
+              "C4"
+            ],
+            "conflict_id": "CF2",
+            "description": "高校校规自主权与上位法优先要求之间存在张力；生效裁判明确校规及据此处分必须符合上位法律、法规、规章，与上位规章抵触的校规不能作为处分依据。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "未提供本案所涉高校第068号通知及《普通高等学校学生管理规定》相关条文的完整文本，无法逐条比对退学条件与上位规章的具体冲突。",
+            "gap_id": "G1",
+            "missing_aspect": "完整规范文本与逐条比对",
+            "route": "neutral_governing"
+          },
+          {
+            "description": "支持路线未直接证明田永案作出退学处理决定前是否听取陈述申辩、是否告知申诉权；相关程序违法论证更多来自谭帆案及指导案例规则。",
+            "gap_id": "G2",
+            "missing_aspect": "田永案听取申辩与告知申诉权的直接事实",
+            "route": "support"
+          },
+          {
+            "description": "反向路线未提供否定高校被告资格或否定正当程序适用的权威材料，现有材料主要是对被告资格来源和适用范围的边界性说明。",
+            "gap_id": "G3",
+            "missing_aspect": "真正相反或削弱假设的权威裁判规则",
+            "route": "counter_weakening"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "核对第068号通知与《普通高等学校学生管理规定》相关条文的具体冲突点",
+            "核对田永案卷宗中是否听取陈述申辩、是否告知申诉权的直接材料",
+            "核对送达事实与法院查明之间的差异及生效裁判的认定范围",
+            "确认反向路线是否存在未纳入的相反权威裁判或例外规则"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "指导案例38号明确颁证行为可诉、违背上位法的校规不予支持、影响基本权利的决定应允许申辩并及时送达，用于核对边界而非否定假设。",
+              "role": "指导案例规则的反向/边界核对"
+            }
+          ],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-07-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-07-0001",
+              "note": "载明田永被退学处理、学校未直接宣布处分决定和送达变更学籍通知、田永继续以在校生身份学习等事实。",
+              "role": "田永案事实与程序背景"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "载明高校学籍管理与颁证职责、行政诉讼被告资格、校规不得抵触上位规章及退学处理违法等裁判规则。",
+              "role": "田永案生效裁判规则"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE01-0005-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE01-0005",
+              "note": "支持退学处理决定属于行政诉讼受案范围，并明确未听取陈述申辩、未提交校长会议、未告知申诉权等程序违法。",
+              "role": "谭帆案参考性案例支持"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE01-06-0001-C0002@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE01-06-0001",
+              "note": "支持高校是行政诉讼适格被告、校规须符合上位法、与上位规章抵触的退学处理决定违法。",
+              "role": "田永案生效裁判支持"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "三路证据在高校被告资格、校规合法性审查和正当程序要求上总体一致，核心结论有生效裁判和指导案例支持。",
+            "缺少完整法条与校规文本，无法进行逐条规范比对。",
+            "田永案中是否听取陈述申辩缺少直接证据，程序违法论证部分依赖同类案例和指导案例规则。",
+            "送达事实存在被告主张与法院查明之间的表述差异，虽已由生效裁判认定，但仍需人工核对卷宗。"
+          ]
+        }
+      },
+      "CASE-02": {
+        "answer": "在符合“未办理结婚登记且未共同生活”，或“已登记但婚姻存续极短、女方无正当理由拒绝共同生活、无实质共同生活、无共同合理支出、无法定酌减事由”等情形时，彩礼缔结婚姻、组建家庭的核心目的可认定落空，支持全额返还（90%-100%）。郑某诉吴某案中，双方登记后仅相处十天，接收方拒绝共同生活，彩礼未实际使用、未置办嫁妆、未共同孕育子女，法院判令返还全部彩礼20万元。但反向案例显示，已登记短婚如存在短暂同居、共同消费、妊娠终止、彩礼数额过高等酌减事实，法院可能仅按比例返还（如返还80万元/106万元、56400元/188000元），故不能将90%-100%机械适用于所有已登记短婚情形。应重点审查共同生活实质、共同合理支出、嫁妆、孕育、双方过错、彩礼数额及当地经济水平。",
+        "audit_panel": {
+          "descriptive_only": true,
+          "not_correctness_or_fairness_evidence": true,
+          "signals": [
+            {
+              "current_budget": 2,
+              "new_authority": true,
+              "new_document": true,
+              "novelty_score": 0.8882042253521126,
+              "query_id": "DENSE-Q-0058",
+              "ranking_gap_signal": 0.03889137059868779,
+              "reason": "neutral_governing top-2 lacks the RULE cue; frozen rank 4 supplies it",
+              "role": "RULE",
+              "route": "neutral_governing",
+              "target_budget": 4,
+              "trigger_type": "ROLE_MISSING"
+            }
+          ]
+        },
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "虽然办理结婚登记可以使当事人在法律上成立夫妻关系，但这并不足以认定一方给付彩礼的目的已经实现，人民法院还应结合双方对婚姻的态度、是否形成稳定的共同生活等事实予以认定。",
+                "quote_id": "E1-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "虽然办理结婚登记可以使当事人在法律上成立夫妻关系，但这并不足以认定一方给付彩礼的目的已经实现，人民法院还应结合双方对婚姻的态度、是否形成稳定的共同生活等事实予以认定。",
+                "quote_id": "E2-S21",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "实践中，给付彩礼的目的除了办理结婚登记手续这一法定形式要件外，更重要的是双方形成长期、稳定的共同生活状态。",
+                "quote_id": "E4-S14",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "【典型意义】  彩礼是以缔结婚姻为特定目的的附条件财物给付，区别于普通民事赠与，实践中存有一些“订婚即定亲，收了彩礼无需还”的错误认知，在婚约无法继续履行时，一方拒不退还彩礼，极易加剧婚恋家事矛盾。",
+                "quote_id": "E5-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C1",
+            "claim_text": "彩礼以缔结婚姻为目的；办理结婚登记只使双方在法律上成立夫妻关系，并不足以单独认定给付彩礼的目的已经实现，还应结合双方对婚姻的态度、是否形成稳定共同生活、是否建立夫妻感情等事实认定。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第五条 双方已办理结婚登记且共同生活，离婚时一方请求返还按照习俗给付的彩礼的，人民法院一般不予支持。",
+                "quote_id": "E6-S16",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "但是，如果共同生活时间较短且彩礼数额过高的，人民法院可以根据彩礼实际使用及嫁妆情况，综合考虑彩礼数额、共同生活及孕育情况、双方过错等事实，结合当地习俗，确定是否返还以及返还的具体比例。",
+                "quote_id": "E6-S17",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "人民法院认定彩礼数额是否过高，应当综合考虑彩礼给付方所在地居民人均可支配收入、给付方家庭经济情况以及当地习俗等因素。",
+                "quote_id": "E6-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C2",
+            "claim_text": "已办理结婚登记且共同生活，离婚时请求返还彩礼一般不予支持；但共同生活时间较短且彩礼数额过高的，可综合彩礼实际使用及嫁妆、共同生活及孕育、双方过错、当地习俗等确定是否返还及比例。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第六条 双方未办理结婚登记但已共同生活，一方请求返还按照习俗给付的彩礼的，人民法院应当根据彩礼实际使用及嫁妆情况，综合考虑共同生活及孕育情况、双方过错等事实，结合当地习俗，确定是否返还以及返还的具体比例。",
+                "quote_id": "E6-S19",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条规定，双方未办理结婚登记手续，当事人请求返还按照习俗给付的彩礼的，人民法院应当予以支持。",
+                "quote_id": "E5-S6",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "本案中，张某为缔结婚姻，给付杨某7万元彩礼，双方未办理结婚登记手续，也未共同生活，张某要求杨某返还彩礼，符合司法解释的规定，应予支持。",
+                "quote_id": "E5-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "彩礼是以结婚为目的的赠与，在双方未办理结婚登记且未共同生活的情形下，给付彩礼的目的未实现，彩礼应予返还。",
+                "quote_id": "E5-S12",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C3",
+            "claim_text": "双方未办理结婚登记但已共同生活的，返还彩礼应综合彩礼实际使用及嫁妆、共同生活及孕育、双方过错、当地习俗等确定是否返还及比例；未办理结婚登记且未共同生活的，给付彩礼目的未实现，应支持返还。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "第二条 禁止借婚姻索取财物。",
+                "quote_id": "E6-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+                "quote": "一方以彩礼为名借婚姻索取财物，另一方要求返还的，人民法院应予支持。",
+                "quote_id": "E6-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E1-S14",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C4",
+            "claim_text": "禁止借婚姻索取财物；一方以彩礼为名借婚姻索取财物，另一方要求返还的，人民法院应予支持。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E1-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "在此情况下，人民法院判令解除婚姻关系、彩礼接收方返还全部彩礼。",
+                "quote_id": "E1-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E2-S20",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "在此情况下，人民法院判令解除婚姻关系、彩礼接收方返还全部彩礼。",
+                "quote_id": "E2-S23",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C5",
+            "claim_text": "在郑某诉吴某案中，双方登记结婚后仅相处十天，彩礼接收方拒绝共同生活，彩礼未实际使用、未置办嫁妆、未共同孕育子女，法院认定属于应当返还彩礼情形并判令返还全部20万元。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，双方从相识至办理结婚登记再到分开仅短暂的十余天时间，虽已办理结婚登记，但共同相处时间明显较短，双方也未共同生育子女，且经郑某多次催促，吴某拒绝返回，双方一直未进行有效的感情交流与沟通，至今未真正建立起夫妻感情，故对郑某要求离婚之诉请，予以支持。",
+                "quote_id": "E1-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E1-S14",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "本案中，双方从相识至办理结婚登记再到分开仅短暂的十余天时间，虽已办理结婚登记，但共同相处时间明显较短，双方也未共同生育子女，且经郑某多次催促，吴某拒绝返回，双方一直未进行有效的感情交流与沟通，至今未真正建立起夫妻感情，故对郑某要求离婚之诉请，予以支持。",
+                "quote_id": "E2-S19",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TGT-CASE02-0001",
+                "quote": "本案中，从当事人沟通内容可以看出，双方尚未形成稳定的共同生活状态，亦未建立真正的夫妻感情，并且，从彩礼接收方对婚姻的态度和行为看，存在借婚姻索取财物的可能性。",
+                "quote_id": "E2-S22",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C6",
+            "claim_text": "该案从相识至登记再到分开仅十余天，双方未形成稳定共同生活状态、未建立真正夫妻感情，且从接收方对婚姻的态度和行为看存在借婚姻索取财物的可能性。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "双方未办理结婚登记手续，也未共同生活。",
+                "quote_id": "E5-S3",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "本案中，张某为缔结婚姻，给付杨某7万元彩礼，双方未办理结婚登记手续，也未共同生活，张某要求杨某返还彩礼，符合司法解释的规定，应予支持。",
+                "quote_id": "E5-S7",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "彩礼是以结婚为目的的赠与，在双方未办理结婚登记且未共同生活的情形下，给付彩礼的目的未实现，彩礼应予返还。",
+                "quote_id": "E5-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0049",
+                "quote": "人民法院依法判决杨某返还张某7万元。",
+                "quote_id": "E5-S8",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C7",
+            "claim_text": "未办理结婚登记且未共同生活的情形下，彩礼给付目的未实现，法院支持全额返还彩礼。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "举办婚礼后，二人同居一晚，张某便返回娘家，双方未实际共同生活。",
+                "quote_id": "E4-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "本案中，闫某与张某举行了婚礼，双方仅共同生活一晚，张某便离家，且以尚有部分彩礼和购车贷款未付清为由，拒绝办理结婚登记手续，将索取财物作为缔结婚姻的条件，对婚约的解除负有重大过错。",
+                "quote_id": "E4-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "鉴于双方同居时间极短、未孕育子女，张某应全额返还彩礼。",
+                "quote_id": "E4-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0090",
+                "quote": "闫某给付张某的首饰款和购车款，均系闫某基于缔结婚姻的期待而作出的大额赠与，属于彩礼范畴，应予返还。",
+                "quote_id": "E4-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C8",
+            "claim_text": "未办理结婚登记但按习俗举办婚礼后仅同居一晚，接收方以彩礼未付清等为由拒绝办理结婚登记并将索取财物作为缔结婚姻条件，同居极短且未孕育子女的，法院可判令全额返还彩礼及基于缔结婚姻期待的大额首饰款、购车款。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "后因筹备举办婚礼等事宜发生纠纷，双方于2020年11月协议离婚，婚姻关系存续不到三个月。",
+                "quote_id": "E7-S4",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "双方虽有短暂同居经历，但尚未形成完整的家庭共同体和稳定的生活状态，不能认定为已经有稳定的共同生活。",
+                "quote_id": "E7-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "鉴于双方已经登记结婚，且刘某支付彩礼后双方有共同筹备婚礼仪式、共同旅游、亲友相互往来等共同开销的情况，对该部分费用予以扣减。",
+                "quote_id": "E7-S13",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "据此，法院酌情认定返还彩礼80万元。",
+                "quote_id": "E7-S14",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C9",
+            "claim_text": "已办理结婚登记但婚姻关系存续不到三个月、仅有短暂同居、双方未形成完整家庭共同体和稳定生活状态，同时存在共同筹备婚礼、旅游、亲友往来等共同开销的，法院可能扣除共同消费后仅返还大部分彩礼，而非全额。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "案例一：已办理结婚登记但共同生活时间较短，离婚时应当根据共同生活时间、孕育子女等事实对数额过高的彩礼酌情返还——王某某与李某某离婚纠纷案",
+                "quote_id": "E8-S4",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "结合当地经济生活水平及王某某家庭经济情况，王某某所给付的彩礼款18.8万元属于数额过高，事实上造成较重的家庭负担。",
+                "quote_id": "E8-S15",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "综合考虑双方共同生活时间较短，女方曾有终止妊娠等事实，为妥善平衡双方当事人利益，化解矛盾纠纷，酌定李某某返还彩礼款56400元。",
+                "quote_id": "E8-S16",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "已办理结婚登记但共同生活时间较短、彩礼数额过高并造成较重家庭负担，且女方曾有终止妊娠事实的，法院可能仅酌定返还部分彩礼，而非90%-100%。",
+            "claim_type": "counter",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "日常消费性支出以及表情达意的小额转账不属于彩礼范围。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "在具体案件中，人民法院应当结合当地风俗习惯和日常生活经验，厘清双方间的往来款项系为表达、增进感情的消费性支出还是彩礼，从而适用相关规则予以处理。",
+                "quote_id": "E3-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "若以夫妻名义共同生活数年且已共同养育子女后仍要求返还彩礼，对孙某明显不公平，故判决驳回王某的诉讼请求。",
+                "quote_id": "E3-S23",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "已共同生活较长时间并建立起家庭共同体的情况下，一方在关系破裂后主张返还彩礼的，对其请求不予支持，贯彻诚实信用原则，妥善平衡双方利益。",
+                "quote_id": "E3-S27",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "日常消费性支出以及表达、增进感情的小额转账不属于彩礼；未办理结婚登记但共同生活时间较长且已生育子女的，一方请求返还彩礼一般不予支持。",
+            "claim_type": "boundary",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+                "quote": "因双方办理结婚登记后仅相处了十天，彩礼接收方拒绝共同生活，结合彩礼未实际使用，吴某未置办嫁妆，双方未共同孕育孩子等实际情况，本案属于应当返还彩礼的情形，判令吴某返还彩礼20万元。",
+                "quote_id": "E1-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE02-0114-C0001@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE02-0114",
+                "quote": "双方曾短暂同居，并因筹备婚宴、拍婚纱照、共同旅游、亲友相互往来等发生部分费用。",
+                "quote_id": "E7-S6",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "李某某于2021年4月终止妊娠。",
+                "quote_id": "E8-S12",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE02-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE02-04-0001",
+                "quote": "综合考虑双方共同生活时间较短，女方曾有终止妊娠等事实，为妥善平衡双方当事人利益，化解矛盾纠纷，酌定李某某返还彩礼款56400元。",
+                "quote_id": "E8-S16",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C12",
+            "claim_text": "郑某诉吴某案与刘某与朱某案、王某某与李某某案可区分：前者登记后仅十天且接收方拒绝共同生活、无共同消费与妊娠等酌减事实；后两者存在短暂同居、共同消费或终止妊娠等影响返还比例的事实。",
+            "claim_type": "distinguishable",
+            "support_status": "supported"
+          }
+        ],
+        "condition": "HG2-C2_COMPETITIVE_AUDIT",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C5",
+              "C9",
+              "C10"
+            ],
+            "conflict_id": "CF1",
+            "description": "C5支持登记后极短且接收方拒绝共同生活时全额返还；C9、C10显示登记后短婚如存在短暂同居、共同消费、妊娠终止、彩礼过高等酌减事实，法院可能仅按比例返还。二者张力可通过共同生活实质及酌减事实区分，并由E6所载综合裁量规则解决。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "缺少对“女方无正当理由拒绝共同生活”中“正当理由”的认定标准及举证责任分配。",
+            "gap_id": "G1",
+            "missing_aspect": "正当理由与举证责任",
+            "route": "neutral_governing"
+          },
+          {
+            "description": "缺少案件具体经济数据（彩礼给付方所在地居民人均可支配收入、给付方家庭经济情况、当地习俗）以判断彩礼是否过高及酌减比例。",
+            "gap_id": "G2",
+            "missing_aspect": "彩礼过高与比例裁量的经济数据",
+            "route": "support"
+          },
+          {
+            "description": "缺少对双方是否存在共同合理支出、嫁妆、共同消费、妊娠等酌减事实的直接证据，无法排除部分返还。",
+            "gap_id": "G3",
+            "missing_aspect": "酌减事实",
+            "route": "counter_weakening"
+          },
+          {
+            "description": "郑某诉吴某案原审法院、案号、裁判日期未公开披露，影响对裁判事实与程序细节的审计追踪。",
+            "gap_id": "G4",
+            "missing_aspect": "原审程序信息",
+            "route": "neutral_governing"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "核实是否存在实质共同生活、共同合理支出、嫁妆、妊娠等酌减事实",
+            "核实女方拒绝共同生活是否有正当理由及双方过错",
+            "核实彩礼数额是否过高及当地经济水平",
+            "确认是否适用借婚姻索取财物或骗婚路径及相应证明标准",
+            "补充郑某诉吴某案原审程序信息（如可获取）"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0005@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+              "note": "郑某诉吴某案：登记后仅相处十天、接收方拒绝共同生活、彩礼未使用、未置办嫁妆、未共同孕育，法院判令全额返还20万元，并阐明登记不当然等于彩礼目的实现。",
+              "role": "裁判规则与典型案例事实"
+            },
+            {
+              "chunk_id": "DOC-TGT-CASE02-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TGT-CASE02-0001",
+              "note": "与E1同案的最高人民法院典型案例文本，核心事实与裁判理由一致；原审法院、案号、裁判日期未公开披露。",
+              "role": "典型案例发布文本"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-06-0001-C0004@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-06-0001",
+              "note": "日常消费性支出及表情达意的小额转账不属于彩礼；未登记但长期共同生活并生育子女的，一般不支持返还；并含郑某诉吴某案标题。",
+              "role": "边界规则与对照案例"
+            },
+            {
+              "chunk_id": "DOC-TRF-CASE02-0090-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE02-0090",
+              "note": "闫某诉张某案：举办婚礼后仅同居一晚，接收方以彩礼未付清等为由拒绝登记，法院认定将索取财物作为缔结婚姻条件，判令全额返还彩礼及大额首饰款、购车款。",
+              "role": "未登记但举办婚礼后极短同居的裁判"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE02-0049-C0001@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE02-0049",
+              "note": "未办理结婚登记且未共同生活，彩礼给付目的未实现，法院支持全额返还7万元。",
+              "role": "支持全额返还的规范与案例"
+            },
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE02-03-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE02-03-0001",
+              "note": "规定禁止借婚姻索取财物、彩礼范围排除项、已登记共同生活一般不支持返还但短婚高额可酌减、未登记但共同生活应综合裁量等规则。",
+              "role": "涉彩礼纠纷司法解释"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "郑某诉吴某案直接支持登记后极短且拒绝共同生活时全额返还，但该案以彩礼未使用、未置办嫁妆、未共同孕育子女等为条件。",
+            "反向案例表明已登记短婚如存在短暂同居、共同消费、妊娠终止、彩礼过高等，返还比例可能显著降低。",
+            "缺少案件具体经济数据与酌减事实，无法机械确定90%-100%的返还比例。",
+            "部分事实仅有典型案例文本，原审程序信息未公开披露。"
+          ]
+        }
+      },
+      "CASE-03": {
+        "answer": "综合在卷裁判规则与指导案例，于海明抢到砍刀后，刘某立即上前争夺，受伤后又跑向藏匿砍刀的汽车，既未放弃攻击，也未实质性脱离现场，不法侵害仍处于“正在进行”状态；于海明不间断追击两刀未中，刘某跑离后即停止追击，追砍行为具有防卫适时性。面对持砍刀连续击打且足以严重危及人身安全的“行凶”行为，应适用特殊防卫规则，造成刘某死亡不属于防卫过当；不能以于海明本人伤情较轻与死亡结果对比不相适应为由否定正当防卫。判断防卫时间与强度应立足防卫人当时紧张、紧迫情境，按社会公众一般认知作事前判断，不能苛求防卫人精准控制防卫强度。",
+        "audit_panel": {
+          "descriptive_only": true,
+          "not_correctness_or_fairness_evidence": true,
+          "signals": []
+        },
+        "claims": [
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "论证后认为，判断侵害行为是否已经结束，应看侵害人是否已经实质性脱离现场以及是否还有继续攻击或再次发动攻击的可能。",
+                "quote_id": "E1-S3",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C01",
+            "claim_text": "判断不法侵害是否已经结束，应看侵害人是否已经实质性脱离现场以及是否还有继续攻击或再次发动攻击的可能。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "于海明抢到砍刀后，刘某立刻上前争夺，侵害行为没有停止，刘某受伤后又立刻跑向之前藏匿砍刀的汽车，于海明此时作不间断的追击也符合防卫的需要。",
+                "quote_id": "E1-S4",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C02",
+            "claim_text": "于海明抢到砍刀后，刘某立刻上前争夺，侵害行为没有停止；刘某受伤后又立刻跑向之前藏匿砍刀的汽车，于海明此时作不间断追击符合防卫需要。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "于海明追砍两刀均未砍中，刘某从汽车旁边跑开后，于海明也未再追击。",
+                "quote_id": "E1-S5",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C03",
+            "claim_text": "于海明追砍两刀均未砍中，刘某从汽车旁边跑开后，于海明也未再追击，说明追击行为限于制止侵害所需。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，在于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+                "quote_id": "E1-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C04",
+            "claim_text": "于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "刑法第二十条第三款规定，“对正在进行行凶、杀人、抢劫、强奸、绑架以及其他严重危及人身安全的暴力犯罪，采取防卫行为，造成不法侵害人伤亡的，不属于防卫过当，不负刑事责任”。",
+                "quote_id": "E1-S13",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C05",
+            "claim_text": "对正在进行行凶、杀人、抢劫、强奸、绑架以及其他严重危及人身安全的暴力犯罪采取防卫行为，造成不法侵害人伤亡的，不属于防卫过当，不负刑事责任。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "论证后认为，不法侵害行为既包括实害行为也包括危险行为，对于危险行为同样可以实施正当防卫。",
+                "quote_id": "E1-S9",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C06",
+            "claim_text": "不法侵害行为既包括实害行为也包括危险行为，对于危险行为同样可以实施正当防卫。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "认为“于海明与刘某的伤情对比不相适应”的意见，只注意到了实害行为而忽视了危险行为，这种意见实际上是要求防卫人应等到暴力犯罪造成一定的伤害后果才能实施防卫，这不符合及时制止犯罪、让犯罪不能得逞的防卫需要，也不适当地缩小了正当防卫的依法成立范围，是不正确的。",
+                "quote_id": "E1-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C07",
+            "claim_text": "仅以于海明与刘某伤情对比不相适应为由认定防卫过当，只注意实害行为而忽视危险行为，不符合及时制止犯罪的防卫需要。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "本案中，在刘某的行为因具有危险性而属于“行凶”的前提下，于海明采取防卫行为致其死亡，依法不属于防卫过当，不负刑事责任，于海明本人是否受伤或伤情轻重，对正当防卫的认定没有影响。",
+                "quote_id": "E1-S11",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0001@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，刘某的行为符合“行凶”的认定标准，应当认定为“行凶”。",
+                "quote_id": "E2-S27",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C08",
+            "claim_text": "在刘某行为因具有危险性而属于行凶的前提下，于海明采取防卫行为致其死亡，依法不属于防卫过当，于海明本人是否受伤或伤情轻重对正当防卫认定没有影响。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "适用本款规定，“行凶”是认定的难点，对此应当把握以下两点：一是必须是暴力犯罪，对于非暴力犯罪或一般暴力行为，不能认定为行凶；二是必须严重危及人身安全，即对人的生命、健康构成严重危险。",
+                "quote_id": "E1-S17",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在具体案件中，有些暴力行为的主观故意尚未通过客观行为明确表现出来，或者行为人本身就是持概括故意予以实施，这类行为的故意内容虽不确定，但已表现出多种故意的可能，其中只要有现实可能造成他人重伤或死亡的，均应当认定为“行凶”。",
+                "quote_id": "E1-S18",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C09",
+            "claim_text": "行凶认定要求行为属于暴力犯罪且严重危及人身安全；暴力行为故意内容虽不确定，但只要现实可能造成他人重伤或死亡，均应认定为行凶。",
+            "claim_type": "boundary",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "”据此，判断不法侵害是否已经结束，不能苛求防卫人在紧张、紧迫的情境下对侵害人的侵害能力和侵害意图作出精准判断，而应当立足防卫人在防卫时所处具体情境，按照社会公众的一般认知，综合考量侵害行为的急缓程度、侵害工具的危险性、侵害人是否仍有继续实施侵害的现实可能性等因素，作出合乎情理的判断。",
+                "quote_id": "E3-S5",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C10",
+            "claim_text": "判断不法侵害是否已经结束，不能苛求防卫人在紧张、紧迫情境下精准判断侵害能力和意图，应立足防卫人当时情境，按社会公众一般认知综合考量。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "不法侵害虽然被暂时制止，但是立足于防卫人当时所处情境，以社会公众的一般认知，认为不法侵害人仍有继续实施侵害的现实可能性的，应当认定为不法侵害仍在进行。",
+                "quote_id": "E3-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C11",
+            "claim_text": "不法侵害虽被暂时制止，但立足防卫人当时情境，以社会公众一般认知认为侵害人仍有继续实施侵害现实可能性的，应认定不法侵害仍在进行。",
+            "claim_type": "governing_rule",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "吴某华虽被拉倒在地、菜刀被踢开，但吴某华当时处于醉酒状态，其行为不受控制，倒地后仍有起身意图，二被告人有理由相信吴某华仍有可能继续实施侵害。",
+                "quote_id": "E3-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "站在社会公众的视角判断，要求二被告人在吴某华倒地后瞬间精准判断其是否已经完全丧失侵害能力，不具有合理性和现实性。",
+                "quote_id": "E3-S9",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+                "doc_id": "DOC-TRF-CASE03-0297",
+                "quote": "因此，根据本案二被告人所处的情境，应当认为吴某华仍有继续实施不法侵害的现实可能性，即不法侵害尚未结束，二被告人的后续踢打行为仍然是为了制止不法侵害。",
+                "quote_id": "E3-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C12",
+            "claim_text": "类似情境中，侵害人虽倒地且凶器被踢开，但处于醉酒状态、仍有起身意图时，不能要求防卫人瞬间精准判断其是否完全丧失侵害能力，应认定仍有继续侵害的现实可能性。",
+            "claim_type": "support",
+            "support_status": "supported"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在论证过程中有意见提出，于海明抢到砍刀后，刘某的侵害行为已经结束，不属于正在进行。",
+                "quote_id": "E1-S2",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "因此，在于海明抢得砍刀顺势反击时，刘某既未放弃攻击行为也未实质性脱离现场，不能认为侵害行为已经停止。",
+                "quote_id": "E1-S6",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C13",
+            "claim_text": "反对意见认为，于海明抢到砍刀后刘某的侵害行为已经结束，不属于正在进行。",
+            "claim_type": "counter",
+            "support_status": "contradicted"
+          },
+          {
+            "citations": [
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "在论证过程中有意见提出，于海明本人所受损伤较小，但防卫行为却造成了刘某死亡的后果，二者对比不相适应，于海明的行为属于防卫过当。",
+                "quote_id": "E1-S8",
+                "span_end": null,
+                "span_start": null
+              },
+              {
+                "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+                "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+                "quote": "认为“于海明与刘某的伤情对比不相适应”的意见，只注意到了实害行为而忽视了危险行为，这种意见实际上是要求防卫人应等到暴力犯罪造成一定的伤害后果才能实施防卫，这不符合及时制止犯罪、让犯罪不能得逞的防卫需要，也不适当地缩小了正当防卫的依法成立范围，是不正确的。",
+                "quote_id": "E1-S10",
+                "span_end": null,
+                "span_start": null
+              }
+            ],
+            "claim_id": "C14",
+            "claim_text": "反对意见认为，于海明本人所受损伤较小，但防卫行为造成刘某死亡，二者对比不相适应，于海明行为属于防卫过当。",
+            "claim_type": "counter",
+            "support_status": "contradicted"
+          }
+        ],
+        "condition": "HG2-C2_COMPETITIVE_AUDIT",
+        "conflicts": [
+          {
+            "between_claim_ids": [
+              "C13",
+              "C01",
+              "C04"
+            ],
+            "conflict_id": "CF01",
+            "description": "反对意见主张抢刀后侵害已结束；裁判规则与事实认定认为刘某未放弃攻击、未实质性脱离现场，侵害仍在进行。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          },
+          {
+            "between_claim_ids": [
+              "C14",
+              "C06",
+              "C07",
+              "C08"
+            ],
+            "conflict_id": "CF02",
+            "description": "反对意见以伤情对比不相适应主张防卫过当；裁判规则认为不法侵害包括危险行为，行凶前提下致死亡不属防卫过当。",
+            "governing_authority_ref": "DOC-SRC-AUTH-CASE03-04-0001-C0002@ck-acq-0.2",
+            "resolution_status": "resolved"
+          }
+        ],
+        "gaps": [
+          {
+            "description": "缺少刘某受伤后跑向汽车时具体主观意图的直接证据，究竟为取刀继续攻击还是逃离，只能依现场情境推断其仍有继续侵害的现实可能性。",
+            "gap_id": "G01",
+            "missing_aspect": "侵害人跑向车辆时的主观意图与即时危险性的直接证据",
+            "route": "counter_weakening"
+          },
+          {
+            "description": "缺少于海明追砍两刀与刘某跑离汽车之间精确时间间隔及现场动态的细化证据。",
+            "gap_id": "G02",
+            "missing_aspect": "追砍行为与侵害状态之间的精确时间关系",
+            "route": "counter_weakening"
+          }
+        ],
+        "human_review": {
+          "focus": [
+            "复核刘某跑向汽车时是否仍有继续攻击或取刀的现实可能性。",
+            "复核追砍两刀与刘某跑离之间的时间连续性及于海明停止追击的节点。",
+            "确认特殊防卫与行凶认定在本案事实中的适用边界。"
+          ],
+          "required": true
+        },
+        "route_evidence": {
+          "counter_weakening": [
+            {
+              "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE03-0297",
+              "note": "虽列于反向材料，但其规则用于检验时间条件，未形成实质反证。",
+              "role": "反向材料位中的检验材料"
+            }
+          ],
+          "neutral_governing": [
+            {
+              "chunk_id": "DOC-SRC-AUTH-CASE03-04-0001-C0001@ck-acq-0.2",
+              "doc_id": "DOC-SRC-AUTH-CASE03-04-0001",
+              "note": "载明于海明案基本事实、行凶认定及正当防卫撤案结论。",
+              "role": "检例第47号指导案例"
+            }
+          ],
+          "support": [
+            {
+              "chunk_id": "DOC-TRF-CASE03-0297-C0002@ck-acq-0.2",
+              "doc_id": "DOC-TRF-CASE03-0297",
+              "note": "支持不能苛求防卫人精准判断侵害是否结束，应依情境和社会公众一般认知判断。",
+              "role": "类似情境规则支持"
+            }
+          ]
+        },
+        "uncertainty": {
+          "level": "medium",
+          "reasons": [
+            "核心规范与指导案例对防卫适时性、特殊防卫及行凶认定支持明确。",
+            "刘某跑向汽车时的主观意图、精确时间间隔等细节仍依赖情境推断。",
+            "反向材料未提供足以推翻指导案例结论的实质反证，但存在需要说明的细节缺口。"
+          ]
+        }
+      }
+    }
+  }
+}
