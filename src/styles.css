@@ -54,8 +54,6 @@ button.secondary { background: #475467; margin-left: 8px; }
 .evidence-cards { display: grid; gap: 10px; margin-top: 12px; }
 .evidence-card { border-left: 4px solid #155eef; background: white; padding: 12px 14px; border-radius: 8px; }
 .evidence-card p { margin: 5px 0 0; white-space: pre-wrap; }
-.evidence-empty { border: 1px dashed #f79009; background: #fffaeb; border-radius: 10px; padding: 12px 14px; }
-.evidence-empty p { margin: 5px 0 0; }
 .notice.error, .error { color: #b42318; }
 .save-status { margin: 10px 0; color: #067647; font-size: 13px; }
 .save-status.error { color: #b42318; }
