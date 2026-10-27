@@ -47,6 +47,9 @@ button:disabled { background: #98a2b3; cursor: not-allowed; }
 button.secondary { background: #475467; margin-left: 8px; }
 .ai-material { display: grid; gap: 12px; }
 .ai-material h3 { margin: 16px 0 0; }
+.ai-review-explanation { margin: 0; padding: 14px 16px; border-left: 4px solid #155eef; background: #eff4ff; border-radius: 8px; }
+.review-points { border-top: 1px solid #d0d5dd; padding-top: 10px; }
+.assessment { border-top: 2px solid #98a2b3; padding-top: 12px; }
 .answer { white-space: pre-wrap; background: #f8f9fc; border-radius: 8px; padding: 16px; margin: 0; }
 .core-reasons { margin: 0; padding-left: 22px; }
 .evidence-section { border: 1px solid #d0d5dd; border-radius: 10px; padding: 12px 14px; background: #fbfcfe; }
