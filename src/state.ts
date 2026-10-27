@@ -12,7 +12,9 @@ export type Artifact = {
   answer?: string;
   presentation_note?: string;
   claims?: Array<{ claim_id?: string; claim_text?: string; claim_type?: string; support_status?: string; citations?: Array<{ quote_id?: string; quote?: string }> }>;
-  route_evidence?: Record<string, Array<{ chunk_id?: string; doc_id?: string; role?: string; note?: string }>>;
+  route_evidence?: Record<string, Array<{ chunk_id?: string; doc_id?: string; role?: string; note?: string; text?: string }>>;
+  participant_summary?: string;
+  core_reasons?: string[];
   conflicts?: Array<{ conflict_id?: string; description?: string; resolution_status?: string }>;
   gaps?: Array<{ gap_id?: string; description?: string; route?: string; missing_aspect?: string }>;
   uncertainty?: { level?: string; reasons?: string[] };

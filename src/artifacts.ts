@@ -6,7 +6,7 @@ type ChallengeManifest = { cases: Record<string, Challenge>; groups?: Record<str
 
 export type ArtifactBundle = { cases: Vignette[]; conditions: ConditionManifest["conditions"]; challenges: Record<string, Challenge> };
 
-export async function loadArtifactBundle(base = "./artifacts/HG2-0002"): Promise<ArtifactBundle> {
+export async function loadArtifactBundle(base = "./artifacts/HG2-0003"): Promise<ArtifactBundle> {
   const [vignettes, condition, challenges] = await Promise.all([
     fetch(`${base}/EXPERIMENT_VIGNETTE_MANIFEST.json`).then(response => response.json() as Promise<VignetteManifest>),
     fetch(`${base}/CONDITION_ARTIFACTS.json`).then(response => response.json() as Promise<ConditionManifest>),
