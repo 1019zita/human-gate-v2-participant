@@ -1,8 +1,10 @@
 # Human Gate v2 participant surface
 
-**Status: TEST_ONLY static + remote preview.** No real participants, consent records, or production collection are enabled.
+**状态：正式研究参与者前端。**
 
-## Run
+本页面面向中国法学生和其他研究参与人员，使用中文呈现研究说明、案件材料、判断任务和证据质询流程。
+
+## 运行
 
 ```bash
 npm install
@@ -10,34 +12,28 @@ npm run dev
 npm run build
 ```
 
-The participant-facing surface is Chinese-first for Chinese law students. Protocol identifiers (`TEST_ONLY`, `CASE-*`, `SEQ-*`, and event payload keys) remain stable for audit and backend compatibility.
+## 参与者流程
 
-The shell supports both:
+1. 阅读欢迎页上的研究说明；
+2. 填写姓名、年龄和性别，并确认已阅读说明；
+3. 根据案件材料独立作出判断；
+4. 阅读服务端分配的 AI 辅助材料；
+5. 完成 AI 后判断、证据质询、最终判断和材料呈现检验；
+6. 系统保存判断、置信度和页面交互事件。
 
-- local frozen-artifact checks through `src/fixture.ts`;
-- the remote TEST_ONLY flow through the public Supabase URL/anon key and `hg2-api` Edge Function.
+前端不收集邮箱或密码。登录身份由 Supabase 匿名会话提供；姓名、年龄和性别在创建研究会话时通过 `hg2-api` 写入 Supabase 的参与者记录。浏览器不会选择实验条件，服务端负责条件分配、事件顺序、时间戳、事件哈希链和试次锁定。
 
-The remote flow:
+## 数据边界
 
-1. signs in a TEST_ONLY participant and creates a server-side session;
-2. returns only vignette/facts before `pre_ai_judgment_submitted`;
-3. assigns `HG2-C0_STANDARD_RAG`, `HG2-C1_COMPETITIVE`, or `HG2-C2_COMPETITIVE_AUDIT` from a server seed;
-4. returns the condition and condition-specific artifact only after server-side unlock;
-5. writes append-only events through the Supabase boundary;
-6. restores the session and event trace after refresh.
+- 浏览器只使用 Supabase URL、anon/publishable key 和研究材料；
+- service-role key、模型密钥、Gold、裁决标签、相关性标签和正确性标签不会进入前端；
+- 参与者可见的 AI 信息仅作为辅助依据，不作为标准答案；
+- 参与者信息和事件记录仅用于本研究分析，具体保存和访问控制由 Supabase/RLS 负责。
 
-The browser must never choose a condition. Do not put a Supabase service-role key, model key, Gold, adjudication labels, relevance labels, or correctness labels in this bundle. `VITE_*` values are public; use only a Supabase URL and anon/publishable key after the backend/RLS contract is deployed.
+## 冻结材料
 
-## Frozen artifacts
+参与者材料来自版本化 `HG2-0001` artifact manifest。前端只读取案情、AI 呈现材料和标准化质询材料，不读取离线 Gold 或评估文件。
 
-Build participant payloads with `tools/build_human_gate_v2_artifacts.py`. Copy a generated version directory under a static artifact host only after checking its `EXPERIMENT_ARTIFACT_MANIFEST.json` hashes. The frontend may consume the vignette, challenge, and condition artifacts; it must not consume Gold or offline evaluation files.
+## 发布
 
-## Flow
-
-`welcome → vignette → pre_ai → ai → post_ai → challenge → final → manipulation → complete`
-
-This client-side flow is a usability guard only. The server is authoritative for order, condition, server timestamps, event hash-chain, and lock. The displayed condition is intentionally absent before unlock.
-
-Release deployment uses `supabase/migrations/20261027000000_hg2_release_readiness.sql` and `supabase/functions/hg2-api/index.ts`. The Edge Function uses the caller JWT and security-definer RPCs; service-role credentials are not sent to the browser.
-
-The current public TEST_ONLY preview is deployed at `https://1019zita.github.io/hg2-test-only-preview/`.
+正式参与者页面部署使用 `supabase/migrations/20261027000000_hg2_release_readiness.sql`、`supabase/migrations/20261027000001_formal_participant_onboarding.sql` 和 `supabase/functions/hg2-api/index.ts`。
