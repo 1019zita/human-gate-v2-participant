@@ -29,7 +29,7 @@ function eventsFor(session: RemoteSession, trial: Trial) { return session.events
 function hasEvent(events: RemoteEvent[], type: string) { return events.some(event => event.event_type === type); }
 function payloadOf(events: RemoteEvent[], type: string) { return events.find(event => event.event_type === type)?.payload_json ?? {}; }
 function participantError(reason: unknown) { return reason instanceof Error && reason.message ? `系统提示：${reason.message}` : "系统暂时无法连接，请稍后重试。"; }
-function caseLabel(order: number) { return `案件${["一", "二", "三"][order - 1] ?? order}`; }
+function caseLabel(order: number) { return `任务${["一", "二", "三"][order - 1] ?? order}`; }
 function stageLabel(stage: Stage) { return stage === "pre" ? "独立判断" : stage === "post" ? "AI 后判断" : stage === "final" ? "最终判断" : stage === "ai" || stage === "ai_review" ? "AI 证据核查" : stage === "challenge" || stage === "challenge_wait" ? "补充材料" : stage === "manipulation" ? "材料呈现检验" : stage === "vignette" ? "案件阅读" : ""; }
 function shortText(value: string | undefined) { return (value ?? "").replace(/\[[Ee]\d+(?:-[^\]]+)?\]/g, "").replace(/\s+/g, " ").trim(); }
 
@@ -76,7 +76,7 @@ function ProgressiveArtifact({ artifact, onInteraction }: { artifact: Artifact; 
 }
 
 function CaseProgress({ session, activeTrial }: { session: RemoteSession; activeTrial?: Trial }) {
-  return <nav className="case-progress" aria-label="案件进度"><ol>{TRIAL_ORDERS.map(order => { const trial = session.trials.find(item => item.trial_order === order); const completed = session.status === "locked" || trial?.status === "locked" || order < (activeTrial?.trial_order ?? 4); const current = order === activeTrial?.trial_order; return <li key={order} className={completed ? "completed" : current ? "current" : "upcoming"}><span className="case-marker" aria-hidden="true">{completed ? "✓" : current ? "●" : "○"}</span><span>{caseLabel(order)}</span></li>; })}</ol></nav>;
+  return <nav className="case-progress" aria-label="任务进度"><ol>{TRIAL_ORDERS.map(order => { const trial = session.trials.find(item => item.trial_order === order); const completed = session.status === "locked" || trial?.status === "locked" || order < (activeTrial?.trial_order ?? 4); const current = order === activeTrial?.trial_order; return <li key={order} className={completed ? "completed" : current ? "current" : "upcoming"}><span className="case-marker" aria-hidden="true">{completed ? "✓" : current ? "●" : "○"}</span><span>{caseLabel(order)}</span></li>; })}</ol></nav>;
 }
 
 export default function App() {
