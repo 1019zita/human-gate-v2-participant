@@ -30,10 +30,6 @@ npm run build
 - 参与者可见的 AI 信息仅作为辅助依据，不作为标准答案；
 - 参与者信息和事件记录仅用于本研究分析，具体保存和访问控制由 Supabase/RLS 负责。
 
-## 冻结材料
+参与者材料来自版本化 `HG2-0003` artifact manifest。前端只读取案情、AI 呈现材料和标准化质询材料，不读取离线 Gold 或评估文件。HG2-0003 同时提供参与者可见的摘要、核心理由、反向证据、冲突/缺口/不确定性字段；内部 hypothesis IDs/refs 和 Gold-dependent fields 不进入 participant payload。
 
-参与者材料来自版本化 `HG2-0001` artifact manifest。前端只读取案情、AI 呈现材料和标准化质询材料，不读取离线 Gold 或评估文件。
-
-## 发布
-
-正式参与者页面部署使用 `supabase/migrations/20261027000000_hg2_release_readiness.sql`、`supabase/migrations/20261027000001_formal_participant_onboarding.sql` 和 `supabase/functions/hg2-api/index.ts`。
+正式参与者页面部署使用 `supabase/migrations/20261027000000_hg2_release_readiness.sql`、`supabase/migrations/20261027000001_formal_participant_onboarding.sql`、`supabase/migrations/20261027000002_formal_flow_repair.sql`、`supabase/migrations/20261027000003_ux_validity_repair.sql` 和 `supabase/functions/hg2-api/index.ts`。当前 Pages URL 为 `https://1019zita.github.io/human-gate-v2-participant/`；正式招募前仍需伦理、隐私、RLS/运营审查与当前浏览器 E2E 验证。
