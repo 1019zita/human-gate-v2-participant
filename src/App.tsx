@@ -326,13 +326,25 @@ export default function App() {
       await prepareNextTrial(operationId, snapshot.session_id, current);
     }
   };
+  const needsRecovery = useMemo(() => {
+    if (!session) return false;
+    if (!activeTrial) return allTrialsLocked && postStudyCheckSubmitted && session.status !== "locked";
+    const events = eventsFor(session, activeTrial);
+    if (!hasEvent(events, "session_open")) return true;
+    if (activeTrial.trial_order !== 1 && !hasEvent(events, "vignette_shown")) return true;
+    if (hasEvent(events, "pre_ai_judgment_submitted") && !hasEvent(events, "condition_unlocked")) return true;
+    if (hasEvent(events, "condition_unlocked") && !hasEvent(events, "ai_artifact_shown")) return true;
+    if (hasEvent(events, "post_ai_judgment_submitted") && !hasEvent(events, "session_locked")) return true;
+    return false;
+  }, [session, activeTrial, allTrialsLocked, postStudyCheckSubmitted]);
 
   useEffect(() => {
-    if (!session || !bundle || hydrating || busy) return;
+    if (!session || !bundle || hydrating || busy || activeOperation.current || !needsRecovery) return;
     const trial = activeTrial;
-    const key = `${session.session_id}:${trial?.trial_id ?? "session"}:${session.events.map(event => `${event.trial_id ?? "session"}:${event.event_type}`).join(",")}:${session.status}`;
+    const key = `${session.session_id}:${trial?.trial_id ?? "session"}:${session.events.length}:${session.status}`;
     if (recoveryKey.current === key) return;
     recoveryKey.current = key;
+    let cancelled = false;
     const operationId = ++operationRun.current;
     activeOperation.current = true;
     setBusy(true);
@@ -343,15 +355,32 @@ export default function App() {
       } else {
         await recoverInterrupted(session, trial, operationId);
       }
+      if (cancelled) return;
       ensureOperation(operationId, session.session_id);
       const result = await readSession(token);
       if (!result.session || result.session.session_id !== session.session_id) throw new Error("研究进度暂时无法读取。");
       sessionRef.current = result.session;
       setSession(result.session);
+      setSaveState("saved");
+      setRetryAction(null);
     };
-    void recover().catch(reason => { if (operationRun.current === operationId) { recoveryKey.current = ""; setSaveState("error"); setError(participantError(reason)); setRetryAction(() => () => recoverAuthoritative(session.session_id)); } }).finally(() => { if (operationRun.current === operationId) { activeOperation.current = false; setBusy(false); } });
-    return () => { if (operationRun.current === operationId) operationRun.current += 1; };
-  }, [session?.session_id, session?.events.length, session?.status, activeTrial?.trial_id, bundle, hydrating, busy, allTrialsLocked, postStudyCheckSubmitted, token]);
+    void recover().catch(reason => {
+      if (!cancelled && operationRun.current === operationId) {
+        recoveryKey.current = "";
+        setSaveState("error");
+        setError(participantError(reason));
+        setRetryAction(() => () => recoverAuthoritative(session.session_id));
+      }
+    }).finally(() => {
+      if (operationRun.current === operationId) {
+        activeOperation.current = false;
+        setBusy(false);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [session, activeTrial, bundle, hydrating, busy, needsRecovery, allTrialsLocked, postStudyCheckSubmitted, token]);
   const start = async () => { if (activeOperation.current) return; activeOperation.current = true; operationRun.current += 1; setBusy(true); setError(""); try { const participant: ParticipantInfo = { participant_name: participantName.trim(), age: Number(age), gender }; const auth = await signInAnonymously(); await createSession(auth.access_token, participant); const initial = (await readSession(auth.access_token)).session; if (!initial) throw new Error("研究会话创建后暂时无法读取。"); const firstTrial = [...initial.trials].sort((a, b) => a.trial_order - b.trial_order)[0]; await appendEvent(auth.access_token, firstTrial.trial_id, "session_open", { case_id: firstTrial.case_id, trial_order: firstTrial.trial_order }); const latest = (await readSession(auth.access_token)).session; if (!latest) throw new Error("研究进度暂时无法读取。"); localStorage.setItem(TOKEN_KEY, auth.access_token); localStorage.setItem(SESSION_MARKER, auth.access_token); setLegacyRecoveryAllowed(false); setStudyRatings(emptyStudyRatings()); sessionRef.current = latest; setToken(auth.access_token); setSession(latest); } catch (reason) { setError(participantError(reason)); } finally { activeOperation.current = false; setBusy(false); } };
   const validForm = participantName.trim().length > 0 && Number.isInteger(Number(age)) && Number(age) >= 18 && Number(age) <= 120 && Boolean(gender) && agreed;
   const validAnswer = answer !== null && confidence !== null;
