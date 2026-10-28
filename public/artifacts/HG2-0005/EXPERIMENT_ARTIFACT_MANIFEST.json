@@ -1,0 +1,23 @@
+{
+  "artifact_type": "HG2_EXPERIMENT_ARTIFACT_MANIFEST",
+  "artifact_version": "HG2-0005",
+  "case_count": 3,
+  "conditions": [
+    "HG2-C0_STANDARD_RAG",
+    "HG2-C1_COMPETITIVE",
+    "HG2-C2_COMPETITIVE_AUDIT"
+  ],
+  "group_count": 30,
+  "members": {
+    "CONDITION_ARTIFACTS.json": "sha256:5aaf3044ae9d0d3f34ce2a92579d0c91ca46ecb2abd0a40d9df9ccc28945039f",
+    "EXPERIMENT_VIGNETTE_MANIFEST.json": "sha256:c852937054934fdc88ae6cd9994b65d5552a723f7abb76a757c2a400dddee1ef",
+    "STANDARDIZED_CHALLENGE_MANIFEST.json": "sha256:fbdcd3c52f300d7113ebcc3f171b3d1e32453790b6c6a5221b0c2518e4166cb5"
+  },
+  "source_contract": {
+    "audit": "AUDIT-0001",
+    "case_registry": "frozen",
+    "corpus": "CV-0005",
+    "generation": "GEN-0001/full_v1.6"
+  },
+  "status": "TEST_ONLY_STATIC_ARTIFACTS"
+}
