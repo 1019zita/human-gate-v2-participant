@@ -56,19 +56,42 @@ function ProgressiveArtifact({ artifact, onInteraction }: { artifact: Artifact; 
   const alternative = artifact.alternative_explanation ?? [];
   const uncertainty = artifact.uncertainty_statements ?? [];
   const coreReasons = artifact.core_reasons ?? [];
+  const hasStructuredEvidence = support.length > 0 || counter.length > 0 || alternative.length > 0;
+
+  if (!hasStructuredEvidence) {
+    return (
+      <div className="ai-material">
+        <p className="ai-review-explanation">基于你刚才的判断，AI 对案件材料进行了进一步分析。以下为 AI 根据现有材料形成的综合评估，供你重新判断。</p>
+        <section className="assessment">
+          <h3>AI 综合评估</h3>
+          <p className="answer">{shortText(artifact.ai_summary)}</p>
+        </section>
+      </div>
+    );
+  }
+
   return (
     <div className="ai-material">
       <p className="ai-review-explanation">基于你刚才的判断，AI 对相关证据进行了进一步核查。下面同时展示可能支持该判断、可能削弱该判断以及其他合理解释的材料，供你重新评估。</p>
-      {artifact.presentation_note && <p className="subtle">{shortText(artifact.presentation_note)}</p>}
       {support.length > 0 && <EvidenceCards title="支持当前判断的依据" entries={support} onOpen={() => onInteraction("audit_open", { section: "support" })} />}
       {counter.length > 0 && <EvidenceCards title="可能削弱当前判断的依据" entries={counter} onOpen={() => onInteraction("counter_expand", { section: "counter" })} />}
       {alternative.length > 0 && <EvidenceCards title="其他合理解释" entries={alternative} onOpen={() => onInteraction("audit_open", { section: "alternative" })} />}
       {uncertainty.length > 0 && <section className="uncertainty-section"><h3>仍需进一步核实的信息</h3><ul>{uncertainty.map((text, index) => <li key={index}>{shortText(text)}</li>)}</ul></section>}
-      {artifact.audit_panel && <details className="evidence-section" onToggle={event => { if ((event.target as HTMLDetailsElement).open) onInteraction("audit_open", { section: "audit_note" }); }}><summary>材料说明</summary><p>{shortText(artifact.audit_panel.display_note)}</p></details>}
-      {coreReasons.length > 0 && <section className="review-points"><h3>核查要点</h3><ul className="core-reasons">{coreReasons.slice(0, 3).map((text, index) => <li key={index}>{shortText(text)}</li>)}</ul></section>}
+      {artifact.audit_panel && (
+        <details className="evidence-section" onToggle={event => { if ((event.target as HTMLDetailsElement).open) onInteraction("audit_open", { section: "audit_note" }); }}>
+          <summary>材料说明</summary>
+          <p>本说明仅用于提示材料检索覆盖情况，不代表法律正确性或公平性结论。</p>
+        </details>
+      )}
+      {coreReasons.length > 0 && (
+        <section className="review-points">
+          <h3>核查要点</h3>
+          <ul className="core-reasons">{coreReasons.slice(0, 3).map((text, index) => <li key={index}>{shortText(text)}</li>)}</ul>
+        </section>
+      )}
       <section className="assessment">
         <h3>综合核查结果</h3>
-        <p className="subtle">这是基于前述支持、削弱和其他解释材料形成的综合评估，供你重新判断。</p>
+        <p className="subtle">这是基于上述证据核查形成的综合评估，供你重新判断。</p>
         <p className="answer">{shortText(artifact.ai_summary)}</p>
       </section>
     </div>
