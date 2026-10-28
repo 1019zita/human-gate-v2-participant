@@ -23,7 +23,7 @@ export type Artifact = {
   counter_weakening_material?: SourceMaterial[];
   alternative_explanation?: SourceMaterial[];
   uncertainty_statements?: string[];
-  audit_panel?: { display_note: string };
+  audit_panel?: { display_note?: string; coverage?: { independent_source_count: number; supporting_source_count: number; counter_source_count: number; alternative_source_count: number; coverage_note: string } };
 };
 export type Vignette = {
   case_id: string;

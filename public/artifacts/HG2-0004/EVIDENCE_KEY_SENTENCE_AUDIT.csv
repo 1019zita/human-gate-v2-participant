@@ -1,0 +1,123 @@
+﻿case_id,response_option,condition,evidence_role,source_title,key_sentence,character_count,grounding_check,status
+CASE-01,A,HG2-C1_COMPETITIVE,supporting_material,谭帆诉西南大学不服退学处理决定案,高等学校作出的退学处理决定属于行使法律赋予的教育行政管理职权，学生不服提起诉讼属于行政诉讼受案范围。,50,PASS,VALID
+CASE-01,A,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,高校依据违背国家法律法规的校纪校规对受教育者作出退学处理的，人民法院不予支持且可依法审查。,45,PASS,VALID
+CASE-01,A,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,校内信箱通知与直接送达决定在送达程序认定上存在事实表述差异，直接影响程序合法性判定。,42,PASS,VALID
+CASE-01,A,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,高校办学自主权受上位法约束，与上位法律规章抵触的校规不能作为处分依据。,35,PASS,VALID
+CASE-01,B,HG2-C1_COMPETITIVE,supporting_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,高校享有依据法律规定制定校规校纪并进行日常教学与学籍管理的自主办学权力。,36,PASS,VALID
+CASE-01,B,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,涉及拒绝颁发学历证书及退学等剥夺受教育权决定的争议，受教育者不服的可依法提起行政诉讼。,43,PASS,VALID
+CASE-01,B,HG2-C1_COMPETITIVE,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,生效裁判认定退学处理涉及教育行政管理职权，不能作为纯粹校内自治事项排除行政诉讼。,40,PASS,VALID
+CASE-01,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,高校办学自主权受到上位法优先原则限制，违反部委规章的处分决定可被法院依法撤销。,39,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,supporting_material,指导案例39号：何小强诉华中科技大学拒绝授予学位案,司法审查应尊重高校学术自治，但对超越法定职权或违反上位法律的处分行为法院可依法纠正。,42,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,supporting_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,影响学生受教育基本权利的纪律惩戒决定须遵循法定程序，体现对不同管理事项的区分规制。,41,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,supporting_material,甘露不服暨南大学开除学籍决定案,严重影响受教育权的处分决定纳入司法审查范围，纯学术评价事项则遵循大学自治原则。,39,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,退学处分被法院全案撤销表明重大纪律处分必须接受严格合法性审查，学术自治不能豁免程序义务。,44,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,退学处分涉及学生身份变动与基本权利，司法审查贯穿校规合法性与处分正当程序全过程。,40,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,纪律惩戒审查与学术评价自治存在边界划分争议，司法实践通过区分事项属性确定干预限度。,41,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,未明确成文程序规定时能否直接适用正当程序原则撤销处分，在裁判依据阐释上存在不同视角。,42,PASS,VALID
+CASE-01,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,涉及剥夺学籍的处分受司法审查，而毕业学术考核则主要依赖高校专业评价权限。,36,PASS,VALID
+CASE-01,U,HG2-C1_COMPETITIVE,supporting_material,四川省高级人民法院发布近五年行政审判十大典型案例之三：陈某某诉某大学退学决定案——学生未提交毕业论文，高等学校可以作出退学处理决定,学生未提交毕业论文属于学业考核事实，高校依规可作出退学处理但程序仍须完备。,37,PASS,VALID
+CASE-01,U,HG2-C1_COMPETITIVE,supporting_material,田永诉北京科技大学拒绝颁发毕业证、学位证行政诉讼案,原审在查明处分是否有效送达及学籍状态延续事实上存在较多细节交叉，需结合在卷证据审慎核对。,44,PASS,VALID
+CASE-01,U,HG2-C1_COMPETITIVE,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,司法裁判对高校管理行为的可诉性标准相对明确，但个案程序瑕疵是否导致处分完全无效仍需审查事实。,46,PASS,VALID
+CASE-01,U,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,指导案例明确处分须遵循听取申辩和及时送达原则，但本案是否充分履行程序在卷证据尚存缺口。,43,PASS,VALID
+CASE-01,U,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,校方办学管理抗辩与司法确立的授权受案规则存在法律定性分歧，需个案核实授权依据与处分性质。,44,PASS,VALID
+CASE-02,A,HG2-C1_COMPETITIVE,supporting_material,山西省高级人民法院、山西省妇女联合会联合发布五起涉彩礼纠纷典型案例之一：张某诉杨某婚约财产纠纷案——未办理结婚登记也未共同生活，彩礼给付方请求较高比例返还彩礼的，人民法院应予支持,未办理结婚登记且未共同生活的，给付彩礼目的完全未实现，人民法院应支持较高比例返还。,41,PASS,VALID
+CASE-02,A,HG2-C1_COMPETITIVE,supporting_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,已登记但共同生活时间极短且彩礼数额过高的，应综合多项事实确定较高比例返还。,37,PASS,VALID
+CASE-02,A,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,双方办理结婚登记且有短暂同居经历的，法院认定应扣除共同消费等合理开支后仅部分返还。,41,PASS,VALID
+CASE-02,A,HG2-C1_COMPETITIVE,counter_weakening_material,《人民法院涉彩礼纠纷典型案例》,已登记且存在共同生活或终止妊娠等事实的，应当综合考量双方权益，不支持全额返还。,39,PASS,VALID
+CASE-02,A,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,登记后拒绝共同生活支持较高比例返还，但若存在短暂同居或共同支出则需酌情扣减。,38,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,supporting_material,《人民法院涉彩礼纠纷典型案例》,确定彩礼返还比例时应兼顾民俗习惯与公平原则，综合共同生活时长及合理开销居中衡平。,40,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,supporting_material,重庆市第五中级人民法院发布八起辖区两级法院涉彩礼纠纷典型案例之七：蒲某某与何某某婚约财产纠纷案——未办理结婚登记且共同生活较短，应当考虑共同生活时长返还部分彩礼,共同生活时间较短的应根据实际共同生活时长与支出情况，酌情按比例返还部分彩礼。,38,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,婚姻存续不足三个月且仅短暂同居的，法院判决扣减共同旅游及往来费用后返还大部分彩礼。,41,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,已登记且共同生活的原则上不予返还，仅在共同生活较短且彩礼过高时例外酌情部分返还。,40,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,日常消费性支出及节日小额给付不属于彩礼范围，核算返还数额时不得简单笼统折抵。,38,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,已登记通常不予返还的一般原则与极短同居酌情部分返还之间存在具体裁量权衡。,36,PASS,VALID
+CASE-02,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,共同生活十天与短暂同居数月在返还比例上存在差异，主要取决于合理支出与共同体形成程度。,42,PASS,VALID
+CASE-02,C,HG2-C1_COMPETITIVE,supporting_material,《人民法院涉彩礼纠纷典型案例》,双方已办理结婚登记且已共同生活的，离婚时一方请求返还彩礼的人民法院原则上不予支持。,41,PASS,VALID
+CASE-02,C,HG2-C1_COMPETITIVE,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,共同生活时间过短且彩礼数额明显偏高的，不能仅因办理登记就完全免除返还责任。,37,PASS,VALID
+CASE-02,C,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,一方以彩礼为名借婚姻索取财物或无正当理由拒绝共同生活的，另一方返还请求应予支持。,40,PASS,VALID
+CASE-02,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,登记成立夫妻关系一般不支持返还，但未建立感情且拒绝共同生活的例外支持返还。,37,PASS,VALID
+CASE-02,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,长期稳定生活生育子女情形不予返还，与数日即分居无实质生活的返还规则存在事实前提差异。,42,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,supporting_material,山西省高级人民法院、山西省妇女联合会联合发布五起涉彩礼纠纷典型案例之一：张某诉杨某婚约财产纠纷案——未办理结婚登记也未共同生活，彩礼给付方请求较高比例返还彩礼的，人民法院应予支持,裁判明确彩礼给付目的与婚姻实际履行状态密切相关，需查明双方共同生活是否实质建立。,40,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,supporting_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,司法解释规定确定返还比例须结合彩礼实际使用、共同开支及当地习俗等在案全部细节。,39,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,双方在筹备婚礼旅游等共同支出中的具体扣减数额具有裁量弹性，在在案凭证不足时难以直接定额。,44,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,认定彩礼是否过高需结合当地人均可支配收入和家庭经济状况，在案数据不全时较难准确衡量。,42,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,各方对于女方未返回共同生活的原因与过错归属各执一词，事实细节未完全查明影响比例划定。,42,PASS,VALID
+CASE-02,U,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,彩礼返还存在形式登记效力与实质共同生活多重视角，事实细节不足时难以直接得出确定数额结论。,44,PASS,VALID
+CASE-03,A,HG2-C1_COMPETITIVE,supporting_material,马某海、李某正当防卫案,判断不法侵害是否结束不能苛求防卫人精准判断，危险仍有延续可能的应认定侵害仍在进行。,41,PASS,VALID
+CASE-03,A,HG2-C1_COMPETITIVE,counter_weakening_material,马某海、李某正当防卫案,不法侵害人失去侵害能力或确已放弃侵害的，客观上应当认定不法侵害已经结束。,36,PASS,VALID
+CASE-03,A,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,侵害人砍刀脱手但跑向车辆，防卫人认定其取刀继续侵害与事后侵害已结束主张存在判断视角差异。,44,PASS,VALID
+CASE-03,A,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,面对严重危及人身安全的暴力行凶，特殊防卫致人死亡依法不属于防卫过当。,34,PASS,VALID
+CASE-03,B,HG2-C1_COMPETITIVE,supporting_material,马某海、李某正当防卫案,不法侵害人确已脱离现场或放弃不法侵害后，后续实施的殴打追击行为不符合防卫适时性条件。,42,PASS,VALID
+CASE-03,B,HG2-C1_COMPETITIVE,counter_weakening_material,马某海、李某正当防卫案,侵害暂时中断但依常人视角仍有继续侵害现实可能性的，依法应当认定不法侵害仍在进行。,40,PASS,VALID
+CASE-03,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,主张抢刀后侵害已结束，与裁判规则认定侵害人跑向汽车未脱离现场存在事实评价分歧。,39,PASS,VALID
+CASE-03,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,防卫损害与侵害结果对比失衡的主张，受到法律关于严重暴力行凶特殊防卫规定的限制。,39,PASS,VALID
+CASE-03,B,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,事后裁判者精准客观反推，与法律要求立足防卫人当时紧迫情境的常人标准存在方法差异。,40,PASS,VALID
+CASE-03,C,HG2-C1_COMPETITIVE,supporting_material,最高人民检察院指导性案例第 47 号：于海明正当防卫案,正当防卫应当立足具体行为与现场紧迫情境，综合研判侵害行为的发展过程与防卫连续性。,40,PASS,VALID
+CASE-03,C,HG2-C1_COMPETITIVE,counter_weakening_material,马某海、李某正当防卫案,整体紧迫情境下的连续防卫行为不宜机械分段割裂评价，苛求防卫人在瞬间作出阶段切分。,40,PASS,VALID
+CASE-03,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,机械分段评价意见与裁判认定防卫紧密相连、不可割裂的整体评价逻辑存在解释张力。,38,PASS,VALID
+CASE-03,C,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,追击行为是否明显超过必要限度及与致命伤的因果关系，在司法实践中存在分段研判分歧。,40,PASS,VALID
+CASE-03,U,HG2-C1_COMPETITIVE,supporting_material,马某海、李某正当防卫案,判断不法侵害是否结束需查清侵害人跑向车辆的真实主观意图，细节不足时依赖现场常人推断。,42,PASS,VALID
+CASE-03,U,HG2-C1_COMPETITIVE,counter_weakening_material,马某海、李某正当防卫案,现场时间极其短暂且防卫人处于高度紧张状态，客观精准判定侵害终止点存在证据事实盲区。,41,PASS,VALID
+CASE-03,U,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,侵害人转身是逃离还是取刀继续攻击缺乏直接口供，客观事实未决导致对侵害终点的认定留有分歧。,44,PASS,VALID
+CASE-03,U,HG2-C1_COMPETITIVE,alternative_explanation,材料之间的不同解释,数刀伤口中具体致命伤形成于反击初期还是追击阶段，法医证据细节直接影响限度评价。,39,PASS,VALID
+CASE-01,A,HG2-C2_COMPETITIVE_AUDIT,supporting_material,谭帆诉西南大学不服退学处理决定案,高等学校作出的退学处理决定属于行使法律赋予的教育行政管理职权，学生不服提起诉讼属于行政诉讼受案范围。,50,PASS,VALID
+CASE-01,A,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,高校依据违背国家法律法规的校纪校规对受教育者作出退学处理的，人民法院不予支持且可依法审查。,45,PASS,VALID
+CASE-01,A,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,校内信箱通知与直接送达决定在送达程序认定上存在事实表述差异，直接影响程序合法性判定。,42,PASS,VALID
+CASE-01,A,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,高校办学自主权受上位法约束，与上位法律规章抵触的校规不能作为处分依据。,35,PASS,VALID
+CASE-01,B,HG2-C2_COMPETITIVE_AUDIT,supporting_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,高校享有依据法律规定制定校规校纪并进行日常教学与学籍管理的自主办学权力。,36,PASS,VALID
+CASE-01,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,涉及拒绝颁发学历证书及退学等剥夺受教育权决定的争议，受教育者不服的可依法提起行政诉讼。,43,PASS,VALID
+CASE-01,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,生效裁判认定退学处理涉及教育行政管理职权，不能作为纯粹校内自治事项排除行政诉讼。,40,PASS,VALID
+CASE-01,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,高校办学自主权受到上位法优先原则限制，违反部委规章的处分决定可被法院依法撤销。,39,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,supporting_material,指导案例39号：何小强诉华中科技大学拒绝授予学位案,司法审查应尊重高校学术自治，但对超越法定职权或违反上位法律的处分行为法院可依法纠正。,42,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,supporting_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,影响学生受教育基本权利的纪律惩戒决定须遵循法定程序，体现对不同管理事项的区分规制。,41,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,supporting_material,甘露不服暨南大学开除学籍决定案,严重影响受教育权的处分决定纳入司法审查范围，纯学术评价事项则遵循大学自治原则。,39,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,退学处分被法院全案撤销表明重大纪律处分必须接受严格合法性审查，学术自治不能豁免程序义务。,44,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,退学处分涉及学生身份变动与基本权利，司法审查贯穿校规合法性与处分正当程序全过程。,40,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,纪律惩戒审查与学术评价自治存在边界划分争议，司法实践通过区分事项属性确定干预限度。,41,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,未明确成文程序规定时能否直接适用正当程序原则撤销处分，在裁判依据阐释上存在不同视角。,42,PASS,VALID
+CASE-01,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,涉及剥夺学籍的处分受司法审查，而毕业学术考核则主要依赖高校专业评价权限。,36,PASS,VALID
+CASE-01,U,HG2-C2_COMPETITIVE_AUDIT,supporting_material,四川省高级人民法院发布近五年行政审判十大典型案例之三：陈某某诉某大学退学决定案——学生未提交毕业论文，高等学校可以作出退学处理决定,学生未提交毕业论文属于学业考核事实，高校依规可作出退学处理但程序仍须完备。,37,PASS,VALID
+CASE-01,U,HG2-C2_COMPETITIVE_AUDIT,supporting_material,田永诉北京科技大学拒绝颁发毕业证、学位证行政诉讼案,原审在查明处分是否有效送达及学籍状态延续事实上存在较多细节交叉，需结合在卷证据审慎核对。,44,PASS,VALID
+CASE-01,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,谭帆诉西南大学不服退学处理决定案,司法裁判对高校管理行为的可诉性标准相对明确，但个案程序瑕疵是否导致处分完全无效仍需审查事实。,46,PASS,VALID
+CASE-01,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院指导案例 38 号：田永诉北京科技大学拒绝颁发毕业证、学位证案,指导案例明确处分须遵循听取申辩和及时送达原则，但本案是否充分履行程序在卷证据尚存缺口。,43,PASS,VALID
+CASE-01,U,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,校方办学管理抗辩与司法确立的授权受案规则存在法律定性分歧，需个案核实授权依据与处分性质。,44,PASS,VALID
+CASE-02,A,HG2-C2_COMPETITIVE_AUDIT,supporting_material,山西省高级人民法院、山西省妇女联合会联合发布五起涉彩礼纠纷典型案例之一：张某诉杨某婚约财产纠纷案——未办理结婚登记也未共同生活，彩礼给付方请求较高比例返还彩礼的，人民法院应予支持,未办理结婚登记且未共同生活的，给付彩礼目的完全未实现，人民法院应支持较高比例返还。,41,PASS,VALID
+CASE-02,A,HG2-C2_COMPETITIVE_AUDIT,supporting_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,已登记但共同生活时间极短且彩礼数额过高的，应综合多项事实确定较高比例返还。,37,PASS,VALID
+CASE-02,A,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,双方办理结婚登记且有短暂同居经历的，法院认定应扣除共同消费等合理开支后仅部分返还。,41,PASS,VALID
+CASE-02,A,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,《人民法院涉彩礼纠纷典型案例》,已登记且存在共同生活或终止妊娠等事实的，应当综合考量双方权益，不支持全额返还。,39,PASS,VALID
+CASE-02,A,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,登记后拒绝共同生活支持较高比例返还，但若存在短暂同居或共同支出则需酌情扣减。,38,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,supporting_material,《人民法院涉彩礼纠纷典型案例》,确定彩礼返还比例时应兼顾民俗习惯与公平原则，综合共同生活时长及合理开销居中衡平。,40,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,supporting_material,重庆市第五中级人民法院发布八起辖区两级法院涉彩礼纠纷典型案例之七：蒲某某与何某某婚约财产纠纷案——未办理结婚登记且共同生活较短，应当考虑共同生活时长返还部分彩礼,共同生活时间较短的应根据实际共同生活时长与支出情况，酌情按比例返还部分彩礼。,38,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,婚姻存续不足三个月且仅短暂同居的，法院判决扣减共同旅游及往来费用后返还大部分彩礼。,41,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,已登记且共同生活的原则上不予返还，仅在共同生活较短且彩礼过高时例外酌情部分返还。,40,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,日常消费性支出及节日小额给付不属于彩礼范围，核算返还数额时不得简单笼统折抵。,38,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,已登记通常不予返还的一般原则与极短同居酌情部分返还之间存在具体裁量权衡。,36,PASS,VALID
+CASE-02,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,共同生活十天与短暂同居数月在返还比例上存在差异，主要取决于合理支出与共同体形成程度。,42,PASS,VALID
+CASE-02,C,HG2-C2_COMPETITIVE_AUDIT,supporting_material,《人民法院涉彩礼纠纷典型案例》,双方已办理结婚登记且已共同生活的，离婚时一方请求返还彩礼的人民法院原则上不予支持。,41,PASS,VALID
+CASE-02,C,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,共同生活时间过短且彩礼数额明显偏高的，不能仅因办理登记就完全免除返还责任。,37,PASS,VALID
+CASE-02,C,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,一方以彩礼为名借婚姻索取财物或无正当理由拒绝共同生活的，另一方返还请求应予支持。,40,PASS,VALID
+CASE-02,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,登记成立夫妻关系一般不支持返还，但未建立感情且拒绝共同生活的例外支持返还。,37,PASS,VALID
+CASE-02,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,长期稳定生活生育子女情形不予返还，与数日即分居无实质生活的返还规则存在事实前提差异。,42,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,supporting_material,山西省高级人民法院、山西省妇女联合会联合发布五起涉彩礼纠纷典型案例之一：张某诉杨某婚约财产纠纷案——未办理结婚登记也未共同生活，彩礼给付方请求较高比例返还彩礼的，人民法院应予支持,裁判明确彩礼给付目的与婚姻实际履行状态密切相关，需查明双方共同生活是否实质建立。,40,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,supporting_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,司法解释规定确定返还比例须结合彩礼实际使用、共同开支及当地习俗等在案全部细节。,39,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院、民政部、全国妇联联合发布四起涉彩礼纠纷典型案例之三：刘某与朱某婚约财产纠纷案——已办理结婚登记，仅有短暂同居经历尚未形成稳定共同生活的，应扣除共同消费等费用后返还部分彩礼,双方在筹备婚礼旅游等共同支出中的具体扣减数额具有裁量弹性，在在案凭证不足时难以直接定额。,44,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定,认定彩礼是否过高需结合当地人均可支配收入和家庭经济状况，在案数据不全时较难准确衡量。,42,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》,各方对于女方未返回共同生活的原因与过错归属各执一词，事实细节未完全查明影响比例划定。,42,PASS,VALID
+CASE-02,U,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,彩礼返还存在形式登记效力与实质共同生活多重视角，事实细节不足时难以直接得出确定数额结论。,44,PASS,VALID
+CASE-03,A,HG2-C2_COMPETITIVE_AUDIT,supporting_material,马某海、李某正当防卫案,判断不法侵害是否结束不能苛求防卫人精准判断，危险仍有延续可能的应认定侵害仍在进行。,41,PASS,VALID
+CASE-03,A,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,马某海、李某正当防卫案,不法侵害人失去侵害能力或确已放弃侵害的，客观上应当认定不法侵害已经结束。,36,PASS,VALID
+CASE-03,A,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,侵害人砍刀脱手但跑向车辆，防卫人认定其取刀继续侵害与事后侵害已结束主张存在判断视角差异。,44,PASS,VALID
+CASE-03,A,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,面对严重危及人身安全的暴力行凶，特殊防卫致人死亡依法不属于防卫过当。,34,PASS,VALID
+CASE-03,B,HG2-C2_COMPETITIVE_AUDIT,supporting_material,马某海、李某正当防卫案,不法侵害人确已脱离现场或放弃不法侵害后，后续实施的殴打追击行为不符合防卫适时性条件。,42,PASS,VALID
+CASE-03,B,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,马某海、李某正当防卫案,侵害暂时中断但依常人视角仍有继续侵害现实可能性的，依法应当认定不法侵害仍在进行。,40,PASS,VALID
+CASE-03,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,主张抢刀后侵害已结束，与裁判规则认定侵害人跑向汽车未脱离现场存在事实评价分歧。,39,PASS,VALID
+CASE-03,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,防卫损害与侵害结果对比失衡的主张，受到法律关于严重暴力行凶特殊防卫规定的限制。,39,PASS,VALID
+CASE-03,B,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,事后裁判者精准客观反推，与法律要求立足防卫人当时紧迫情境的常人标准存在方法差异。,40,PASS,VALID
+CASE-03,C,HG2-C2_COMPETITIVE_AUDIT,supporting_material,最高人民检察院指导性案例第 47 号：于海明正当防卫案,正当防卫应当立足具体行为与现场紧迫情境，综合研判侵害行为的发展过程与防卫连续性。,40,PASS,VALID
+CASE-03,C,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,马某海、李某正当防卫案,整体紧迫情境下的连续防卫行为不宜机械分段割裂评价，苛求防卫人在瞬间作出阶段切分。,40,PASS,VALID
+CASE-03,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,机械分段评价意见与裁判认定防卫紧密相连、不可割裂的整体评价逻辑存在解释张力。,38,PASS,VALID
+CASE-03,C,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,追击行为是否明显超过必要限度及与致命伤的因果关系，在司法实践中存在分段研判分歧。,40,PASS,VALID
+CASE-03,U,HG2-C2_COMPETITIVE_AUDIT,supporting_material,马某海、李某正当防卫案,判断不法侵害是否结束需查清侵害人跑向车辆的真实主观意图，细节不足时依赖现场常人推断。,42,PASS,VALID
+CASE-03,U,HG2-C2_COMPETITIVE_AUDIT,counter_weakening_material,马某海、李某正当防卫案,现场时间极其短暂且防卫人处于高度紧张状态，客观精准判定侵害终止点存在证据事实盲区。,41,PASS,VALID
+CASE-03,U,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,侵害人转身是逃离还是取刀继续攻击缺乏直接口供，客观事实未决导致对侵害终点的认定留有分歧。,44,PASS,VALID
+CASE-03,U,HG2-C2_COMPETITIVE_AUDIT,alternative_explanation,材料之间的不同解释,数刀伤口中具体致命伤形成于反击初期还是追击阶段，法医证据细节直接影响限度评价。,39,PASS,VALID

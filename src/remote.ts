@@ -1,5 +1,5 @@
 export type Trial = { trial_id: string; trial_order: number; case_id: string; status: "open" | "locked" | "incomplete" };
-export type RemoteEvent = { event_id: string; session_id: string; trial_id: string; event_type: string; server_seq: number; server_timestamp: string; sequence_id?: string; payload_json: Record<string, unknown> };
+export type RemoteEvent = { event_id: string; session_id: string; trial_id: string | null; event_type: string; server_seq: number; server_timestamp: string; sequence_id?: string; payload_json: Record<string, unknown> };
 export type RemoteInteraction = { interaction_id: string; session_id: string; trial_id: string; interaction_type: string; server_timestamp: string; payload_json: Record<string, unknown> };
 export type RemoteSession = { session_id: string; protocol_version: string; artifact_version: string; status: string; trials: Trial[]; events: RemoteEvent[]; interactions: RemoteInteraction[] };
 export type ParticipantInfo = { participant_name: string; age: number; gender: string };
@@ -30,6 +30,8 @@ async function call(path: string, token: string, init: RequestInit = {}): Promis
 export function createSession(token: string, participant: ParticipantInfo) { return call("/v1/session", token, { method: "POST", body: JSON.stringify(participant) }) as Promise<{ trials: Trial[]; condition_hidden: boolean }>; }
 export function readSession(token: string) { return call("/v1/session", token) as Promise<{ session: RemoteSession | null; condition_hidden: boolean }>; }
 export function appendEvent(token: string, trialId: string, eventType: string, payload: Record<string, unknown>) { return call(`/v1/trials/${encodeURIComponent(trialId)}/events`, token, { method: "POST", body: JSON.stringify({ event_type: eventType, payload }) }) as Promise<{ event: RemoteEvent; condition?: string | null }>; }
-export function unlockTrial(token: string, trialId: string) { return call(`/v1/trials/${encodeURIComponent(trialId)}/unlock`, token, { method: "POST", body: "{}" }) as Promise<{ event: RemoteEvent; condition: string; artifact_key?: string }>; }
+export function unlockTrial(token: string, trialId: string) { return call(`/v1/trials/${encodeURIComponent(trialId)}/unlock`, token, { method: "POST", body: "{}" }) as Promise<{ event: RemoteEvent; condition: string; artifact_key?: string }>;
+}
 export function appendInteraction(token: string, trialId: string, interactionType: string, payload: Record<string, unknown>) { return call(`/v1/trials/${encodeURIComponent(trialId)}/interactions`, token, { method: "POST", body: JSON.stringify({ interaction_type: interactionType, payload }) }) as Promise<{ interaction_id: string; server_timestamp: string; acknowledged: true }>; }
+export function appendSessionManipulation(token: string, payload: Record<string, unknown>) { return call("/v1/session/manipulation", token, { method: "POST", body: JSON.stringify({ event_type: "post_study_manipulation_check_submitted", payload }) }) as Promise<{ event: RemoteEvent; acknowledged: true }>; }
 export function finalizeSession(token: string) { return call("/v1/session/finalize", token, { method: "POST", body: "{}" }) as Promise<{ session: { session_id: string; status: string; already_complete: boolean }; acknowledged: true }>; }
