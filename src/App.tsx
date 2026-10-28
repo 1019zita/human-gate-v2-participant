@@ -137,8 +137,10 @@ export default function App() {
   const trialEvents = activeTrial && session ? eventsFor(session, activeTrial) : [];
   const caseData = activeTrial && bundle ? bundle.cases.find(item => item.case_id === activeTrial.case_id) : undefined;
   const challenge: Challenge | undefined = activeTrial && bundle ? bundle.challenges[activeTrial.case_id] : undefined;
-  const condition = activeTrial && session ? String(payloadOf(trialEvents, "condition_unlocked").condition ?? "") : "";
-  const artifact = condition && activeTrial && bundle ? bundle.conditions[condition]?.[activeTrial.case_id] : undefined;
+  const conditionUnlockedPayload = payloadOf(trialEvents, "condition_unlocked");
+  const condition = activeTrial && session ? String(conditionUnlockedPayload.condition ?? "") : "";
+  const artifactKey = activeTrial && session ? String(conditionUnlockedPayload.artifact_key ?? "") : "";
+  const artifact = condition && artifactKey && bundle && activeTrial ? (bundle.conditions[condition]?.[artifactKey] ?? bundle.conditions[condition]?.[activeTrial.case_id]) : undefined;
   const stage: Stage = !activeTrial ? "complete" : !hasEvent(trialEvents, "session_open") ? "starting" : activeTrial.trial_order === 1 && !hasEvent(trialEvents, "consent_recorded") ? "consent" : !hasEvent(trialEvents, "vignette_shown") ? "vignette" : !hasEvent(trialEvents, "pre_ai_judgment_submitted") ? "pre" : !hasEvent(trialEvents, "condition_unlocked") ? "unlocking" : !hasEvent(trialEvents, "ai_artifact_shown") ? "ai" : !hasEvent(trialEvents, "ai_review_completed") ? "ai_review" : !hasEvent(trialEvents, "post_ai_judgment_submitted") ? "post" : !hasEvent(trialEvents, "challenge_opened") ? "challenge" : !hasEvent(trialEvents, "challenge_review_completed") ? "challenge_wait" : !hasEvent(trialEvents, "final_judgment_submitted") ? "final" : !hasEvent(trialEvents, "manipulation_check_submitted") ? "manipulation" : "locking";
 
   useEffect(() => { setAnswer(null); setConfidence(null); setRationale(""); setChallengeInfluenceRating(null); setExplicitCounterEffect(""); setUnderstandability(null); setTrust(null); setInformationAmount(null); setSelfAuthored(null); setRecognition(""); setOpenedEvidence(new Set()); setSaveState("idle"); setError(""); }, [activeTrial?.trial_id, stage]);
@@ -159,10 +161,11 @@ export default function App() {
       if (!hasEvent(current, "session_open")) { await appendEvent(token, activeTrial.trial_id, "session_open", basePayload); currentResult = await readSession(token); current = currentResult.session ? eventsFor(currentResult.session, activeTrial) : []; }
       if (activeTrial.trial_order === 1 && !hasEvent(current, "consent_recorded")) return;
       if (hasEvent(current, "pre_ai_judgment_submitted") && !hasEvent(current, "condition_unlocked")) { await unlockTrial(token, activeTrial.trial_id); currentResult = await readSession(token); current = currentResult.session ? eventsFor(currentResult.session, activeTrial) : []; }
-      const unlockCondition = String(payloadOf(current, "condition_unlocked").condition ?? "");
-      if (unlockCondition && !hasEvent(current, "ai_artifact_shown")) { await appendEvent(token, activeTrial.trial_id, "ai_artifact_shown", { ...basePayload, condition: unlockCondition, artifact_id: `HG2-0003|${unlockCondition}|${activeTrial.case_id}` }); currentResult = await readSession(token); current = currentResult.session ? eventsFor(currentResult.session, activeTrial) : []; }
-      if (hasEvent(current, "manipulation_check_submitted") && !hasEvent(current, "session_locked")) { await appendEvent(token, activeTrial.trial_id, "session_locked", { ...basePayload, lock_reason: "participant_complete" }); currentResult = await readSession(token); }
-      if (currentResult.session?.status === "locked") await finalizeSession(token);
+      const currentUnlockedPayload = payloadOf(current, "condition_unlocked");
+      const unlockCondition = String(currentUnlockedPayload.condition ?? "");
+      const unlockArtifactKey = String(currentUnlockedPayload.artifact_key ?? "");
+      const resolvedArtifact = unlockCondition && unlockArtifactKey && bundle ? (bundle.conditions[unlockCondition]?.[unlockArtifactKey] ?? bundle.conditions[unlockCondition]?.[activeTrial.case_id]) : undefined;
+      if (unlockCondition && resolvedArtifact && !hasEvent(current, "ai_artifact_shown")) { await appendEvent(token, activeTrial.trial_id, "ai_artifact_shown", { ...basePayload, condition: unlockCondition, artifact_key: unlockArtifactKey, artifact_id: `HG2-0003|${unlockCondition}|${unlockArtifactKey || activeTrial.case_id}` }); currentResult = await readSession(token); current = currentResult.session ? eventsFor(currentResult.session, activeTrial) : []; }
       await refresh();
     };
     void advance().catch(reason => { autoKey.current = ""; setError(participantError(reason)); });
