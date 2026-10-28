@@ -10,6 +10,7 @@ export type SourceMaterial = {
   source_title: string;
   source_type: string;
   source_origin?: string;
+  key_sentence?: string;
   paragraphs: string[];
 };
 export type Artifact = {

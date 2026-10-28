@@ -54,9 +54,12 @@ button.secondary { background: #475467; margin-left: 8px; }
 .core-reasons { margin: 0; padding-left: 22px; }
 .evidence-section { border: 1px solid #d0d5dd; border-radius: 10px; padding: 12px 14px; background: #fbfcfe; }
 .evidence-section summary { cursor: pointer; font-weight: 700; }
-.evidence-cards { display: grid; gap: 10px; margin-top: 12px; }
 .evidence-card { border-left: 4px solid #155eef; background: white; padding: 12px 14px; border-radius: 8px; }
-.evidence-card p { margin: 5px 0 0; white-space: pre-wrap; }
+.evidence-header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+.key-sentence { margin: 6px 0; font-size: 14px; font-weight: 500; color: #1d2939; line-height: 1.6; background: #f8f9fc; padding: 8px 12px; border-radius: 6px; }
+.source-fulltext { margin-top: 8px; border-top: 1px dashed #d0d5dd; padding-top: 6px; }
+.source-fulltext summary { font-size: 13px; color: #475467; cursor: pointer; font-weight: 600; }
+.fulltext-paragraphs { margin-top: 6px; font-size: 13px; color: #344054; line-height: 1.65; white-space: pre-wrap; }
 .notice.error, .error { color: #b42318; }
 .save-status { margin: 10px 0; color: #067647; font-size: 13px; }
 .save-status.error { color: #b42318; }
